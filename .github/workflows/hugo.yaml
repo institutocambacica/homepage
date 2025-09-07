@@ -33,18 +33,6 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-      - name: Initialize submodules and verify theme
-        run: |
-          echo "Initializing submodules..."
-          git submodule update --init --recursive
-          echo "Checking themes directory..."
-          mkdir -p themes
-          ls -la themes/
-          if [ ! -d "themes/typo" ]; then
-            echo "Error: typo theme still not found after submodule initialization"
-            exit 1
-          fi
-          echo "Theme found successfully"
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
