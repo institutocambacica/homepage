@@ -1,25 +1,25 @@
-baseURL = 'https://USERNAME.github.io/instituto-cambacica-audiencia'
+baseURL = 'https://institutocambacica.com'
 languageCode = 'pt-br'
 title = 'Instituto Cambacica de Audiência'
 theme = 'typo'
 
 [params]
-  description = 'Blog dedicado à análise e publicação de audiências de vídeos do YouTube'
+  description = 'Este site mostra dados de comparação de audiência entre os principais canais do Youtube'
   author = 'Instituto Cambacica de Audiência'
+  homeCollection = 'posts'
+  homeCollectionTitle = 'Posts Recentes'
+  #homeIntroTitle = 'Instituto Cambacica de Audiência'
+  homeIntroContent = 'Aqui você não só se informa. Você verifica a audiência.'
+  paginationSize = 10
   
-[menu]
-  [[menu.main]]
-    name = 'Início'
-    url = '/'
-    weight = 1
-  [[menu.main]]
-    name = 'Posts'
-    url = '/posts/'
-    weight = 2
-  [[menu.main]]
-    name = 'Sobre'
+  [[params.menu]]
+    name = 'sobre'
     url = '/sobre/'
-    weight = 3
+  
+  [[params.menu]]
+    name = 'github'
+    url = 'https://github.com/institutocambacica'
+    newTab = true
 
 [taxonomies]
   tag = 'tags'
