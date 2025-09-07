@@ -1,6 +1,6 @@
 +++
 date = '2025-09-07T09:46:43-04:00'
-draft = false
+draft = true
 title = 'Métricas de Visualização: Decodificando o Comportamento da Audiência'
 author = 'Instituto Cambacica de Audiência'
 summary = 'Uma análise profunda das métricas de visualização no YouTube e como elas revelam padrões de consumo de conteúdo digital.'
