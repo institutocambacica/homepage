@@ -1,0 +1,31 @@
+baseURL = 'https://USERNAME.github.io/instituto-cambacica-audiencia'
+languageCode = 'pt-br'
+title = 'Instituto Cambacica de Audiência'
+theme = 'typo'
+
+[params]
+  description = 'Blog dedicado à análise e publicação de audiências de vídeos do YouTube'
+  author = 'Instituto Cambacica de Audiência'
+  
+[menu]
+  [[menu.main]]
+    name = 'Início'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'Posts'
+    url = '/posts/'
+    weight = 2
+  [[menu.main]]
+    name = 'Sobre'
+    url = '/sobre/'
+    weight = 3
+
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
