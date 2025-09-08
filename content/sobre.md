@@ -5,8 +5,6 @@ title = 'Sobre o nosso trabalho'
 type = 'page'
 +++
 
-# Sobre o nosso trabalho
-
 O Instituto Cambacica é uma organização em formação que tem como intuito prover uma fonte de informação verificável da audiência de grandes eventos do Youtube. Surgiu em Setembro de 2025, com ascensão da GETV, canal do Youtube criado pela [Organizações] Globo para concorrer com a CazéTV, canal fundado em 2022 com o intuito inicial de transmitir 22 jogos da Copa do Mundo do Qatar e logo depois acumulou outros direitos (seja por compra própria ou por acordos com o YouTube), e se firmou na preferência popular.
 
 Como é de conhecimento geral, durante uma live do Youtube (se o criador permitir), a audiência ao vivo é vísivel a todos os espectadores enquanto a live estiver no ar. Quando a live encerra, e o criador decidir permitir manter pública a gravação, o Youtube troca a métrica pública para o número de visualizações totais do vídeo, deixando o histórico de espectadores apenas privado para o próprio criador.
