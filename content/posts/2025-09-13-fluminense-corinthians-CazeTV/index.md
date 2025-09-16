@@ -4,7 +4,7 @@ draft = false
 title = "Veja como foi a audiência da partida entre Fluminense X Corinthians na CazéTV - 13-09-2025"
 author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência na última partida do Brasileirão transmitida pela CazéTV"
-tags = ['YouTube', 'Analytics', 'Audiência', 'CazéTV', 'Fluminense', 'Corinthians', 'Brasileirão']
+tags = ['YouTube', 'Analytics', 'CazeTV', 'Fluminense', 'Corinthians', 'Brasileirão']
 categories = ['Audiência']
 +++
 

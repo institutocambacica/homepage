@@ -4,7 +4,7 @@ draft = false
 title = 'Veja como foi a evolução da audiência da GETV na Semana 1 da NFL (07-09-2025)'
 author = 'Instituto Cambacica de Audiência'
 summary = 'Veja como ficou a audiência da partida entre Giants e Commanders no último domingo.'
-tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'NFL']
+tags = ['YouTube', 'Analytics', 'GETV', 'NFL']
 categories = ['Audiência']
 +++
 

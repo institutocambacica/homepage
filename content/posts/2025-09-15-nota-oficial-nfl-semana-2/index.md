@@ -3,7 +3,7 @@ date = 2025-09-15T11:21:18-03:00
 draft = false
 title = "Nota Oficial - Audiência Semana 2 da NFL na GETV"
 author = 'Instituto Cambacica de Audiência'
-tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'NFL', 'Avisos']
+tags = ['YouTube', 'Analytics', 'GETV', 'NFL', 'Avisos']
 categories = ['Audiência']
 +++
 

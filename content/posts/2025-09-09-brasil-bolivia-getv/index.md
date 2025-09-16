@@ -4,7 +4,7 @@ draft = false
 title = 'Audiência da Transmissão da GETV - Bolívia X Brasil (09-09-2025)'
 author = 'Instituto Cambacica de Audiência'
 summary = 'Veja como ficou a audiência do jogo Bolívia 1 X O Brasil na GETV em 09/09/2025.'
-tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Seleção Brasileira', 'Eliminatórias']
+tags = ['YouTube', 'Analytics', 'GETV', 'Seleção Brasileira', 'Eliminatórias']
 categories = ['Audiência']
 +++
 

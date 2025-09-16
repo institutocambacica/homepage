@@ -4,7 +4,7 @@ draft = false
 title = "Veja como foi a audiência da GETV no jogo entre São Paulo X Botafogo - 14-09-2025"
 author = 'Instituto Cambacica de Audiência'
 summary = "Veja como ficou a evolução da audiência no último jogo da GETV"
-tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Botafogo', 'São Paulo', 'Brasileirão']
+tags = ['YouTube', 'Analytics', 'GETV', 'Botafogo', 'São Paulo', 'Brasileirão']
 categories = ['Audiência']
 +++
 

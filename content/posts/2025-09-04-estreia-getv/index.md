@@ -4,7 +4,7 @@ draft = false
 title = 'Audiência da Estreia da GETV - Brasil X Chile (04-09-2025)'
 author = 'Instituto Cambacica de Audiência'
 summary = 'Veja como ficou a audiência na estreia da GETV em 04/09/2025.'
-tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Seleção Brasileira', 'Eliminatórias']
+tags = ['YouTube', 'Analytics', 'GETV', 'Seleção Brasileira', 'Eliminatórias']
 categories = ['Audiência']
 +++
 

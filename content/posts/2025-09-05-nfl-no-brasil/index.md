@@ -4,7 +4,7 @@ draft = false
 title = 'Veja como foi a evolução da audiência da GETV e CazéTV no jogo da NFL no Brasil (05-09-2025)'
 author = 'Instituto Cambacica de Audiência'
 summary = 'Veja quem ganhou na audiência no minuto a minuto no primeiro embate entre GETV e CazéTV.'
-tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'CazéTV', 'NFL']
+tags = ['YouTube', 'Analytics', 'GETV', 'CazeTV', 'NFL']
 categories = ['Audiência']
 +++
 
