@@ -1,5 +1,5 @@
 +++
-date = 2026-07-13T10:00:00-03:00
+date = 2026-07-13T10:08:27-03:00
 draft = false
 title = "Nossas sinceras desculpas"
 author = 'Instituto Cambacica de Audiência'
