@@ -34,7 +34,7 @@ No gráfico a seguir, mostramos a evolução da audiência entre duas horas ante
 
 ![Gráfico de Audiência](audiencia-graph.png)
 
-Para você verificar os metadados desta medição, você pode consultar o [repositório contendo o CSV com os dados e com os prints do minuto a minuto da medição](https://github.com/institutocambacica/TODO-REPO-2026-07-14_13-49-29).
+Para você verificar os metadados desta medição, você pode consultar o [repositório contendo o CSV com os dados e com os prints do minuto a minuto da medição](https://github.com/institutocambacica/audiencia_cazetv_13_a_19_07_2026).
 
 ---
 
