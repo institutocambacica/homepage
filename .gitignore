@@ -40,3 +40,5 @@ hugo.linux
 .claude/*.local.json
 
 .ai-jail
+
+.DS_Store
