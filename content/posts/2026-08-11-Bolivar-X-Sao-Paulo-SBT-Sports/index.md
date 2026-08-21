@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da ida das oitavas da Sul-Americana na SBT Sports, no empate do São Paulo com o Bolívar na altitude de La Paz"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SBT-Sports', 'Bolivar', 'Sao Paulo', 'Sul-Americana']
 categories = ['Audiência']
+campeonatos = ['Sul-Americana 2026']
+data_evento = 2026-08-11
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SBT Sports, durante a transmissão de Bolívar X São Paulo, jogo de ida das oitavas de final da Copa Sul-Americana de 2026, disputado no Estádio Hernando Siles, em La Paz, em 11/08/2026. A partida, a 3.650 metros de altitude, terminou em 1 a 1: Robert Arboleda marcou para o São Paulo aos 23 minutos do primeiro tempo e Carlos Melgar empatou para o Bolívar aos 18 minutos do segundo. O apito inicial foi às 20h30 locais, equivalentes às 21h30 de Brasília, fuso usado em todos os horários deste texto.

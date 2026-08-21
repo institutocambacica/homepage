@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do Campeonato Mexicano na SportyNet, numa curva que só parou de subir no apito final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'America-MEX', 'San Luis', 'Campeonato Mexicano']
 categories = ['Audiência']
+campeonatos = ['Campeonato Mexicano 2026']
+data_evento = 2026-08-16
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de América-MEX X San Luís, partida da 4ª rodada do Campeonato Mexicano, em 16/08/2026. É a única medição de futebol mexicano deste lote, e todos os horários citados abaixo são de Brasília. Não localizamos fonte independente com o relato da partida, de modo que este texto não traz placar nem gols; o que descrevemos é o desenho da audiência e os horários de cada tempo, marcados a partir da própria série coletada.

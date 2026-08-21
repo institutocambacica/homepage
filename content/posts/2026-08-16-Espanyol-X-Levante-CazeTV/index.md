@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a menor audiência da rodada de estreia do Campeonato Espanhol na CazéTV, numa curva que desce do apito inicial ao fim da medição"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Espanyol', 'Levante', 'LaLiga']
 categories = ['Audiência']
+campeonatos = ['LaLiga 2026']
+data_evento = 2026-08-16
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, durante a transmissão de Espanyol X Levante, jogo válido pela 1ª rodada do Campeonato Espanhol de 2026-27 (LaLiga EA Sports), no RCDE Stadium, em Cornellà de Llobregat, em 16/08/2026. O Espanyol venceu por 3 a 0, com dois gols de Roberto Fernández ainda no primeiro tempo, aos 5 e aos 40 minutos, e um de Tyrhys Dolan aos 80, na etapa final. O Levante não marcou, e o jogo foi a estreia das duas equipes no campeonato.

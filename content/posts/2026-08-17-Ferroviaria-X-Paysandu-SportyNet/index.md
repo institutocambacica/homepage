@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo da Série C na SportyNet, numa curva que atingiu o máximo antes do intervalo e recuou no segundo tempo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Ferroviaria', 'Paysandu', 'Serie-C']
 categories = ['Audiência']
+campeonatos = ['Serie C 2026']
+data_evento = 2026-08-17
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Ferroviária X Paysandu, partida da 17ª rodada do Campeonato Brasileiro Série C, em 17/08/2026. Foi a última das quatro partidas dessa rodada que medimos e a única em que a audiência atingiu o máximo ainda no primeiro tempo, um desenho que se afasta do que vimos nas outras três. Sem cronologia confirmada em fonte independente, o relato abaixo cobre a curva de audiência, e não o andamento do jogo.

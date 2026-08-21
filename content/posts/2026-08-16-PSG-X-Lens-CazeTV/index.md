@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da final da Supercopa da França na CazéTV, no título inédito que o Lens conquistou em casa"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'PSG', 'Lens', 'Supercopa da Franca']
 categories = ['Audiência']
+campeonatos = ['Supercopa da Franca 2026']
+data_evento = 2026-08-16
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, durante a transmissão de PSG X Lens, final da Supercopa da França de 2026, disputada no Stade Bollaert-Delelis, em Lens, em 16/08/2026, diante de um público de 38.223. Ao contrário do que sugere a ordem dos times no título da transmissão, o mandante era o Lens: o placar foi de 0 a 1 na ordem PSG X Lens, com o time da casa conquistando o título inédito. Florian Thauvin marcou aos 32 minutos do primeiro tempo, e o Lens ainda terminou o jogo com um a menos, após a expulsão de Kyllian Antonio aos 39.

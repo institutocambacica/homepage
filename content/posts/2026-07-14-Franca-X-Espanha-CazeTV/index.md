@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da primeira semifinal da Copa do Mundo de 2026, transmitida pela CazéTV"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'França', 'Espanha', 'Copa do Mundo']
 categories = ['Audiência']
+campeonatos = ['Copa do Mundo 2026']
+data_evento = 2026-07-14
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, durante a transmissão de França X Espanha, válido pela primeira semifinal da Copa do Mundo de 2026, disputada no AT&T Stadium, em Dallas, em 14/07/2026. A partida terminou com vitória da Espanha por 2 a 0.

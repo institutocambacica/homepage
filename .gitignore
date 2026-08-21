@@ -42,3 +42,6 @@ hugo.linux
 .ai-jail
 
 .DS_Store
+
+__pycache__/
+*.pyc

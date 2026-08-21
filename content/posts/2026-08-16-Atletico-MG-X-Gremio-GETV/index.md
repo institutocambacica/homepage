@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da vitória do Atlético-MG sobre o Grêmio na ge tv, numa curva que só atingiu o máximo nos minutos finais do jogo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Atletico-MG', 'Gremio', 'Brasileirao']
 categories = ['Audiência']
+campeonatos = ['Brasileirao 2026']
+data_evento = 2026-08-16
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela ge tv, durante a transmissão de Atlético-MG X Grêmio, pela 23ª rodada do Campeonato Brasileiro Série A de 2026, na Arena MRV, em Belo Horizonte, em 16/08/2026. O Atlético-MG venceu por 3 a 0. Vitor Hugo abriu o placar aos 19 minutos do primeiro tempo, de cabeça, em escanteio cobrado por Igor Gomes, e Tomás Cuello marcou duas vezes na etapa final, aos 17 e aos 21 minutos. Não houve cartões vermelhos. O jogo chegou a ser divulgado inicialmente para o sábado, antes de a tabela ser ajustada para o domingo.

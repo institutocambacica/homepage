@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da volta das oitavas da Copa do Brasil na ge tv, na goleada que virou o confronto no Barradão"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Vitoria', 'Athletico-PR', 'Copa do Brasil']
 categories = ['Audiência']
+campeonatos = ['Copa do Brasil 2026']
+data_evento = 2026-08-06
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela ge tv, durante a transmissão de Vitória X Athletico-PR, jogo de volta das oitavas de final da Copa do Brasil de 2026, disputado no Barradão, em Salvador, em 06/08/2026. A partida terminou em 4 a 0 para o Vitória: Renê marcou aos 10 minutos do primeiro tempo e aos 14 do segundo, Erick ampliou aos 49 minutos da etapa inicial e Marinho fechou a conta nos acréscimos. Como havia perdido a ida por 2 a 0, o Vitória reverteu a desvantagem e avançou às quartas com 4 a 2 no agregado.

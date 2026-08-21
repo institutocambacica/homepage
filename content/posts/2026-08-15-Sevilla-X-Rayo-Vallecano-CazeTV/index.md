@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da estreia do Sevilla na temporada espanhola na CazéTV, na única medição deste lote que não precisou de nenhum corte de janela"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Sevilla', 'Rayo Vallecano', 'LaLiga']
 categories = ['Audiência']
+campeonatos = ['LaLiga 2026']
+data_evento = 2026-08-15
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, durante a transmissão de Sevilla X Rayo Vallecano, partida da 1ª rodada do Campeonato Espanhol de 2026-27 (LaLiga EA Sports), realizada no Ramón Sánchez-Pizjuán, em Sevilha, em 15/08/2026. O Sevilla venceu por 2 a 1, de virada. Álvaro García abriu o placar para o Rayo Vallecano logo aos 4 minutos; Jon Guridi empatou de pênalti aos 52; e Peque Fernández, também de pênalti, marcou o gol da vitória aos 97, com a equipe da casa já reduzida a dez jogadores desde a expulsão de Kike Salas, aos 88 minutos.

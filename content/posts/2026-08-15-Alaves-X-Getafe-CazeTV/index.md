@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do jogo que abriu o Campeonato Espanhol na CazéTV, numa curva que se construiu quase toda antes do intervalo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Alaves', 'Getafe', 'LaLiga']
 categories = ['Audiência']
+campeonatos = ['LaLiga 2026']
+data_evento = 2026-08-15
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, durante a transmissão de Alavés X Getafe, jogo de abertura da 1ª rodada do Campeonato Espanhol de 2026-27 (LaLiga EA Sports), disputado no Mendizorroza, em Vitoria-Gasteiz, em 15/08/2026. O Alavés venceu por 3 a 0, jogando com um homem a mais desde os 42 minutos do primeiro tempo, quando Kiko Femenía foi expulso no Getafe. Nahuel Tenaglia abriu o placar aos 73 minutos, e os outros dois gols saíram nos acréscimos do segundo tempo: Mariano Díaz aos 91 e Mikel Rodríguez aos 94.

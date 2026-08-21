@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do empate sem gols entre Palmeiras e Internacional na ge tv, numa curva que subiu do apito inicial ao último registro coletado"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Palmeiras', 'Internacional', 'Brasileirao']
 categories = ['Audiência']
+campeonatos = ['Brasileirao 2026']
+data_evento = 2026-08-09
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela ge tv, durante a transmissão de Palmeiras X Internacional, jogo da 22ª rodada do Campeonato Brasileiro Série A de 2026, no Nubank Parque, em São Paulo, em 09/08/2026. O confronto terminou em 0 a 0. Não houve gols nem cartões vermelhos, e os cartões amarelos ficaram com Murilo, do Palmeiras, e com Paulinho, Aguirre e Matheus Cunha, do Internacional. Como a partida não teve gol, a lista de marcos abaixo não traz nenhum ponto ligado ao placar: apenas os limites da medição e os do intervalo entre os dois tempos.

@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da Copa Argentina na Xsports, numa medição em que o ponto mais alto veio depois do apito final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Xsports', 'Racing', 'Belgrano', 'Copa Argentina']
 categories = ['Audiência']
+campeonatos = ['Copa Argentina 2026']
+data_evento = 2026-08-19
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela Xsports, durante a transmissão de Racing X Belgrano, partida da Copa Argentina, em 19/08/2026. O Racing desta medição é o argentino, de Avellaneda, e não o Racing de Santander, que aparece em outra transmissão deste mesmo lote. Sem fonte independente sobre o jogo, este texto não traz placar nem gols: os horários de cada tempo saíram da leitura da própria curva de audiência, e é dela que trata a análise a seguir.

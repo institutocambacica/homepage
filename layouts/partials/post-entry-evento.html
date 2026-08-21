@@ -1,0 +1,26 @@
+{{/* Igual a themes/typo/layouts/partials/post-entry.html, mas mostra a data do
+     EVENTO em vez de .Date (que é a data de publicação), e sempre mostra o
+     resumo — numa página de campeonato é ele que diz "final", "ida das
+     oitavas", "5ª rodada".
+
+     O nome é diferente de propósito: um layouts/partials/post-entry.html no
+     projeto sombrearia o do tema no site inteiro, inclusive na home. */}}
+
+<div class="post-line">
+
+    {{ $dateFormat := .Site.Params.listDateFormat | default "2 Jan 2006" }}
+
+    <p class="line-date">{{ with .Params.data_evento }}{{ . | time.Format $dateFormat }}{{ end }} </p>
+
+    <div>
+        <p class="line-title">
+            <a href="{{ .RelPermalink }}">
+                {{ .Title }}
+            </a>
+        </p>
+
+        {{ with .Params.summary }}
+        <p class="line-summary"> {{ . }} </p>
+        {{ end }}
+    </div>
+</div>

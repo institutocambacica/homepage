@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da final da Copa do Mundo de 2026 na CazéTV, decidida na prorrogação"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Espanha', 'Argentina', 'Copa do Mundo']
 categories = ['Audiência']
+campeonatos = ['Copa do Mundo 2026']
+data_evento = 2026-07-19
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, durante a transmissão de Espanha X Argentina, a final da Copa do Mundo de 2026, disputada no MetLife Stadium, em East Rutherford, em 19/07/2026. A Espanha venceu por 1 a 0, com gol de Ferran Torres na prorrogação, e conquistou o bicampeonato mundial.

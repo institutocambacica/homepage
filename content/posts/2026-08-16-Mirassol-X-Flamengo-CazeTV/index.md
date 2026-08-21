@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da goleada do Flamengo em Mirassol na CazéTV, na medição em que o máximo veio no apito do intervalo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Mirassol', 'Flamengo', 'Brasileirao']
 categories = ['Audiência']
+campeonatos = ['Brasileirao 2026']
+data_evento = 2026-08-16
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, durante a transmissão de Mirassol X Flamengo, partida válida pela 23ª rodada do Campeonato Brasileiro Série A de 2026, no Estádio José Maria de Campos Maia, o Maião, em Mirassol, em 16/08/2026. O jogo terminou em 1 a 5. Jorge Carrascal abriu o placar aos 22 minutos do primeiro tempo; na etapa final, Luiz Araújo ampliou aos 8, Pedro marcou duas vezes, aos 11 e aos 21, e Samuel Lino fez o quinto aos 29. João Victor descontou para o Mirassol aos 32 minutos do segundo tempo. Não houve cartões vermelhos.

@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do retorno do Racing de Santander à elite espanhola na CazéTV, num segundo tempo sem gols que mesmo assim fez a curva subir"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Racing Club', 'Villarreal', 'LaLiga']
 categories = ['Audiência']
+campeonatos = ['LaLiga 2026']
+data_evento = 2026-08-16
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, durante a transmissão de Racing Club X Villarreal, jogo da 1ª rodada do Campeonato Espanhol de 2026-27 (LaLiga EA Sports), disputado nos Campos de Sport de El Sardinero, em Santander, em 16/08/2026. O mandante, que aparece no título como Racing Club, é o Real Racing Club de Santander. A partida terminou 2 a 2: Andrés Martín abriu o placar de pênalti aos 21 minutos, Sergio Martínez ampliou aos 34, e o Villarreal empatou ainda no primeiro tempo, com Pape Gueye aos 45 e Nicolas Pépé aos 46.

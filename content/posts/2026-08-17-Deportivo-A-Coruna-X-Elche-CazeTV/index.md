@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do retorno do Deportivo à elite espanhola na CazéTV, numa curva que só encontrou o seu máximo no apito final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Deportivo A Coruna', 'Elche', 'LaLiga']
 categories = ['Audiência']
+campeonatos = ['LaLiga 2026']
+data_evento = 2026-08-17
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, durante a transmissão de Deportivo A Coruña X Elche, confronto da 1ª rodada do Campeonato Espanhol de 2026-27 (LaLiga EA Sports), no Abanca-Riazor, em A Coruña, em 17/08/2026. O jogo marcava o retorno do Deportivo à primeira divisão, depois do acesso em segundo lugar na LaLiga Hypermotion 2025/26, e terminou 1 a 1: Pierre-Emerick Aubameyang marcou aos 21 minutos, em sua estreia pelo clube galego, e Marc Aguado empatou para o Elche aos 76.

@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a maior audiência da rodada de abertura da Copa da Itália na SportyNet, registrada com a cadência de coleta reduzida"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Pisa', 'Empoli', 'Copa da Italia']
 categories = ['Audiência']
+campeonatos = ['Copa da Italia 2026']
+data_evento = 2026-08-17
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Pisa X Empoli, partida da 1ª rodada da Copa da Itália, em 17/08/2026. De todas as transmissões que o canal fez dessa rodada, esta foi a de maior audiência. É também uma das duas em que a ferramenta de coleta perdeu a cadência de um minuto, o que se traduz num gráfico com menos pontos que o habitual. A partida não teve cronologia confirmada por fonte independente, o que exclui deste texto placar, gols e escalações.

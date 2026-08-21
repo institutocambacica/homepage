@@ -1,0 +1,44 @@
+{{/* Índice /campeonatos/ — todos os campeonatos medidos, agrupados por ano,
+     mais recente primeiro.
+
+     O caminho layouts/campeonatos/taxonomy.html resolve para o kind `taxonomy`
+     tanto pelo sistema novo de layouts (>= 0.146) quanto pela tabela legada.
+     NÃO renomear para list.html: o mapeamento legado de /PLURAL/list aponta
+     para o kind taxonomy e vira uma armadilha silenciosa. */}}
+
+{{ define "main" }}
+
+<div class="list-container">
+
+    {{ partial "breadcrumbs.html" . }}
+
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+
+    {{/* O ano vem do param `ano` do _index.md de cada termo, nunca do título:
+         'LaLiga 2026/27' precisa cair sob 2026. */}}
+    {{ $groups := .Pages.GroupByParam "ano" "desc" }}
+
+    {{/* GroupByParam descarta em silêncio os termos sem `ano` — um _index.md
+         esquecido sumiria do menu sem erro nenhum. O partial abaixo compara as
+         contagens e quebra o build. */}}
+    {{ partial "validate-campeonatos.html" (dict "page" . "groups" $groups) }}
+
+    {{ range $groups }}
+    <h2>{{ .Key }}</h2>
+
+    {{ range sort .Pages "Title" }}
+    <div class="tag-line">
+        <div>
+            <p class="tag-title">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <span class="tag-count">{{ len .Pages }}</span>
+            </p>
+        </div>
+    </div>
+    {{ end }}
+
+    {{ end }}
+
+</div>
+{{ end }}

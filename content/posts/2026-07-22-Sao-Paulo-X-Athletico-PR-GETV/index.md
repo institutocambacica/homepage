@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da 19ª rodada do Brasileirão na ge tv, em um jogo virado pelo Athletico-PR no início do segundo tempo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Sao Paulo', 'Athletico-PR', 'Brasileirão']
 categories = ['Audiência']
+campeonatos = ['Brasileirao 2026']
+data_evento = 2026-07-22
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela ge tv, durante a transmissão de São Paulo X Athletico-PR, válido pela 19ª rodada do Brasileirão de 2026, disputado no Estádio Cícero de Souza Marques, em Bragança Paulista, em 22/07/2026. O Athletico-PR venceu por 2 a 1, de virada: Artur abriu o placar para o São Paulo em cobrança de falta no primeiro tempo e Leozinho marcou duas vezes no início da etapa final.

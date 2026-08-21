@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo da Série C na SportyNet, numa curva cujo ponto mais alto só chegou depois do apito final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Amazonas', 'Botafogo-PB', 'Serie-C']
 categories = ['Audiência']
+campeonatos = ['Serie C 2026']
+data_evento = 2026-08-15
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Amazonas X Botafogo-PB, partida da 17ª rodada do Campeonato Brasileiro Série C, em 15/08/2026. Foi a primeira das quatro transmissões dessa rodada que acompanhamos, todas no mesmo canal: a bola rolou no fim da tarde de sábado, antes da outra partida da mesma rodada que o canal levou ao ar naquele dia. Não localizamos, em fonte independente, a cronologia da partida, de modo que este texto não traz placar nem gols e se limita ao que a própria medição registra.

@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo sem gols do Brasileirão na CazéTV, com o pico registrado logo após o apito final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Botafogo', 'Vitoria', 'Brasileirão']
 categories = ['Audiência']
+campeonatos = ['Brasileirao 2026']
+data_evento = 2026-07-23
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, durante a transmissão de Botafogo X Vitória, jogo atrasado da 4ª rodada do Brasileirão de 2026, disputado no Estádio Nilton Santos, no Rio de Janeiro, em 23/07/2026. A partida terminou em 0 a 0, com o Botafogo dominando as ações e esbarrando nas defesas do goleiro Lucas Arcanjo.

@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da volta das oitavas da Copa do Brasil na ge tv, na maior medição que fizemos nesta série"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Fluminense', 'Vasco', 'Copa do Brasil']
 categories = ['Audiência']
+campeonatos = ['Copa do Brasil 2026']
+data_evento = 2026-08-05
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela ge tv, durante a transmissão de Fluminense X Vasco, jogo de volta das oitavas de final da Copa do Brasil de 2026, disputado no Maracanã, no Rio de Janeiro, em 05/08/2026. A partida terminou em 3 a 1 para o Vasco: Brenner, ex-jogador do Fluminense, marcou aos 33 minutos do primeiro tempo e aos 6 do segundo, Martinelli descontou aos 31 minutos da etapa final e Puma Rodríguez fechou a conta nos acréscimos. Como a ida, no mesmo estádio, havia terminado em 0 a 0, o Vasco avançou às quartas com 3 a 1 no agregado, diante de 48.794 torcedores.

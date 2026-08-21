@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = 'Veja como ficou a audiência do jogo Bolívia 1 X O Brasil na GETV em 09/09/2025.'
 tags = ['YouTube', 'Analytics', 'GETV', 'Seleção Brasileira', 'Eliminatórias']
 categories = ['Audiência']
+campeonatos = ['Eliminatorias 2025']
+data_evento = 2025-09-09
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela GETV, durante a transmissão do jogo Bolívia x Brasil, válido pela última rodada das Eliminatórias para a Copa do Mundo de 2026.

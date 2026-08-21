@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um amistoso internacional na Xsports, numa curva que não chegou a desenhar o vale do intervalo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Xsports', 'Borussia Monchengladbach', 'Aston Villa', 'Amistoso']
 categories = ['Audiência']
+campeonatos = ['Amistosos 2026']
+data_evento = 2026-08-15
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela Xsports, durante a transmissão de Borussia Mönchengladbach X Aston Villa, amistoso internacional realizado em 15/08/2026. É uma das três medições que fizemos no canal neste lote e a única delas com dois clubes europeus em campo. Não localizamos fonte independente com os horários de início e de fim de cada tempo, e a própria curva de audiência tampouco os revela, de modo que este texto se limita ao que a série coletada mostra, sem placar, sem gols e sem os marcos internos da partida.

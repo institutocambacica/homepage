@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo da Série B na SportyNet, num segundo tempo sem gols que ainda assim levou a curva ao máximo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Fortaleza', 'Sao Bernardo', 'Serie-B']
 categories = ['Audiência']
+campeonatos = ['Serie B 2026']
+data_evento = 2026-08-19
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Fortaleza X São Bernardo, jogo da 23ª rodada do Campeonato Brasileiro Série B de 2026, disputado na Arena Castelão, em Fortaleza, em 19/08/2026. A partida terminou empatada em 1 a 1, com os dois gols na etapa inicial: Lucas Sasha abriu o placar para o Fortaleza aos 32 minutos e Pedrinho empatou para o São Bernardo aos 43, já perto do intervalo. O segundo tempo não teve gols, e é justamente ele que concentra o crescimento da audiência.

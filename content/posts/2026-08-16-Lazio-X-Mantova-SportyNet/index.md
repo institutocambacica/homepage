@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de uma partida da Copa da Itália na SportyNet, com o vale de intervalo mais fundo de toda a rodada"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Lazio', 'Mantova', 'Copa da Italia']
 categories = ['Audiência']
+campeonatos = ['Copa da Italia 2026']
+data_evento = 2026-08-16
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Lazio X Mantova, partida da 1ª rodada da Copa da Itália, em 16/08/2026. Foi a última das transmissões da competição que o canal levou ao ar naquela data, já no fim da tarde, e uma das sete que acompanhamos na rodada inteira. A cronologia da partida não pôde ser confirmada em fonte independente e, por isso, não há placar, gols nem escalações neste texto — o que apresentamos é a leitura da própria curva de audiência.

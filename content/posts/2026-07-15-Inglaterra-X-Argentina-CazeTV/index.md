@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da segunda semifinal da Copa do Mundo de 2026, decidida nos acréscimos"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Inglaterra', 'Argentina', 'Copa do Mundo']
 categories = ['Audiência']
+campeonatos = ['Copa do Mundo 2026']
+data_evento = 2026-07-15
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, durante a transmissão de Inglaterra X Argentina, válido pela segunda semifinal da Copa do Mundo de 2026, disputada em Atlanta, em 15/07/2026. A Argentina venceu por 2 a 1, de virada, com o gol da classificação nos acréscimos.

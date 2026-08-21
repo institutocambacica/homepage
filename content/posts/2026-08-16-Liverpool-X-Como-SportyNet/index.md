@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do amistoso de Anfield na SportyNet, numa curva que subiu de repente antes do apito inicial e caiu durante todo o segundo tempo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Liverpool', 'Como', 'Amistoso']
 categories = ['Audiência']
+campeonatos = ['Amistosos 2026']
+data_evento = 2026-08-16
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Liverpool X Como, último amistoso de pré-temporada do Liverpool antes da estreia no Campeonato Inglês, em Anfield, em 16/08/2026. Os dois clubes se enfrentaram duas vezes no mesmo dia: horas antes houve um jogo a portas fechadas, em dois tempos de 35 minutos, que terminou sem gols e não foi transmitido. A partida medida aqui é a de Anfield, e terminou em 2 a 0 para o Liverpool, com gols de Cody Gakpo aos 23 minutos do primeiro tempo e de Jérémy Jacquet aos 44, na estreia do francês.

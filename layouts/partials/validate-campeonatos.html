@@ -1,0 +1,71 @@
+{{/* Validação de build da taxonomia `campeonatos`.
+
+     Existe porque a taxonomia `tags` já apodreceu por digitação: hoje convivem
+     /tags/brasileirao/ e /tags/brasileirão/, /tags/sul-americana/ e
+     /tags/sulamericana/. Aqui `errorf` derruba o build (exit != 0), então o CI
+     pega o erro antes de publicar.
+
+     Chamado de layouts/campeonatos/taxonomy.html, que é construída uma vez só.
+
+     Parâmetros:
+       page   — a página de taxonomia
+       groups — resultado de .Pages.GroupByParam "ano" "desc"
+*/}}
+
+{{ $page := .page }}
+{{ $groups := .groups }}
+
+{{/* ---- 1. Todo post tem exatamente um campeonato, ou opta por fora ----
+     ---- 2. E toda página de post tem data_evento                    ---- */}}
+
+{{ range where site.RegularPages "Section" "posts" }}
+  {{ $termos := .Params.campeonatos | default slice }}
+  {{ if .Params.sem_campeonato }}
+    {{ if gt (len $termos) 0 }}
+      {{ errorf "campeonatos: %s tem sem_campeonato = true e também campeonatos = %v — escolha um dos dois." .File.Path $termos }}
+    {{ end }}
+  {{ else if ne (len $termos) 1 }}
+    {{ errorf "campeonatos: %s tem %d termos em `campeonatos` (esperado exatamente 1). Se o post realmente não pertence a um campeonato, marque sem_campeonato = true." .File.Path (len $termos) }}
+  {{ end }}
+
+  {{ if not .Params.data_evento }}
+    {{ errorf "campeonatos: %s não tem data_evento. Use a data do evento, que é o prefixo AAAA-MM-DD do diretório do bundle." .File.Path }}
+  {{ end }}
+{{ end }}
+
+{{/* ---- 3. Formato do termo: ASCII, sem acento, terminando em 4 dígitos ----
+     ---- 4. Todo termo tem o seu _index.md com `ano`                    ----
+     ---- 5. O ano do termo bate com as datas dos posts (tolerância de 1
+             ano, para temporadas europeias que cruzam o calendário)     ---- */}}
+
+{{ range $termo := $page.Pages }}
+  {{ $valor := $termo.Data.Term }}
+
+  {{ if not (findRE `^[A-Za-z0-9][A-Za-z0-9 .-]*[0-9]{4}$` $valor) }}
+    {{ errorf "campeonatos: termo %q fora do formato. Use ASCII sem acento, no formato `Nome AAAA` (ex.: 'Brasileirao 2026'). O nome bonito e acentuado vai no title de content/campeonatos/<slug>/_index.md." $valor }}
+  {{ end }}
+
+  {{ if not $termo.Params.ano }}
+    {{ errorf "campeonatos: o termo %q (%s) não tem o param `ano`. Crie o _index.md correspondente com title (acentuado) e ano." $valor $termo.RelPermalink }}
+  {{ else }}
+    {{ $ano := int $termo.Params.ano }}
+    {{ range $post := $termo.Pages }}
+      {{ with $post.Params.data_evento }}
+        {{ $anoEvento := int (time.Format "2006" .) }}
+        {{ if gt (math.Abs (sub $anoEvento $ano)) 1 }}
+          {{ errorf "campeonatos: %s tem data_evento em %d, mas o termo %q está em ano = %d. Confira qual dos dois está errado." $post.File.Path $anoEvento $valor $ano }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* ---- 6. GroupByParam descarta termos sem `ano` em silêncio ---- */}}
+
+{{ $agrupados := 0 }}
+{{ range $groups }}
+  {{ $agrupados = add $agrupados (len .Pages) }}
+{{ end }}
+{{ if ne $agrupados (len $page.Pages) }}
+  {{ errorf "campeonatos: %d termos existem mas só %d foram agrupados por ano — algum _index.md está sem o param `ano` e sumiu do índice." (len $page.Pages) $agrupados }}
+{{ end }}

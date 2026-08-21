@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da ida das oitavas da Copa do Brasil na ge tv, em um clássico sem gols que mesmo assim passou de um milhão de aparelhos conectados"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Vasco', 'Fluminense', 'Copa do Brasil']
 categories = ['Audiência']
+campeonatos = ['Copa do Brasil 2026']
+data_evento = 2026-08-01
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela ge tv, durante a transmissão de Vasco X Fluminense, jogo de ida das oitavas de final da Copa do Brasil de 2026, disputado no Maracanã, no Rio de Janeiro, em 01/08/2026. O clássico terminou em 0 a 0, sem gols e sem expulsões, diante de 36.608 torcedores, e deixou a decisão da vaga para o jogo de volta, no mesmo estádio.

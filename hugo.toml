@@ -13,6 +13,10 @@ theme = 'typo'
   paginationSize = 10
   
   [[params.menu]]
+    name = 'campeonatos'
+    url = '/campeonatos/'
+
+  [[params.menu]]
     name = 'sobre'
     url = '/sobre/'
   
@@ -21,9 +25,20 @@ theme = 'typo'
     url = 'https://github.com/institutocambacica'
     newTab = true
 
+[module]
+  # layouts/campeonatos/{taxonomy,term}.html e layouts/index.json usam o sistema
+  # de layouts reescrito na 0.146. Num binário anterior o site construiria, mas
+  # com as páginas erradas — melhor falhar na cara.
+  [module.hugoVersion]
+    min = '0.146.0'
+
 [taxonomies]
   tag = 'tags'
   category = 'categories'
+  # Chave singular = nome da taxonomia; o plural é a chave usada no frontmatter.
+  # Os termos são ASCII ('Brasileirao 2026'); o nome bonito e acentuado fica no
+  # title de content/campeonatos/<slug>/_index.md. Ver layouts/campeonatos/.
+  campeonato = 'campeonatos'
 
 [outputs]
   # HTML precisa vir primeiro: é ele que define o permalink canônico da home.

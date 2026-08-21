@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como ficou a evolução da audiência no último jogo da GETV"
 tags = ['YouTube', 'Analytics', 'GETV', 'Botafogo', 'São Paulo', 'Brasileirão']
 categories = ['Audiência']
+campeonatos = ['Brasileirao 2025']
+data_evento = 2025-09-14
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, obtidos durante a transmissão do jogo São Paulo X Botafogo, válido pela Rodada 23 do Brasileirão, em 14/09/2025.

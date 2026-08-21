@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da 20ª rodada do Brasileirão na ge tv, em um jogo marcado por confusão generalizada no intervalo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Bahia', 'Corinthians', 'Brasileirão']
 categories = ['Audiência']
+campeonatos = ['Brasileirao 2026']
+data_evento = 2026-07-26
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela ge tv, durante a transmissão de Bahia X Corinthians, válido pela 20ª rodada do Brasileirão de 2026, disputado na Arena Fonte Nova, em Salvador, em 26/07/2026. A partida terminou em 1 a 1: Fabrizio Angileri abriu o placar para o Corinthians aos 7 minutos e David Duarte empatou para o Bahia aos 48 minutos do primeiro tempo, em cobrança de escanteio.

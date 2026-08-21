@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do amistoso comemorativo da Veltins-Arena na SportyNet, a maior medição do canal em todo o lote"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Real Madrid', 'Schalke 04', 'Amistoso']
 categories = ['Audiência']
+campeonatos = ['Amistosos 2026']
+data_evento = 2026-08-16
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Real Madrid X Schalke 04, amistoso internacional que marcou os 25 anos da Veltins-Arena, em Gelsenkirchen, em 16/08/2026. Apesar da ordem dos times no título da transmissão, o mandante era o Schalke 04, que recebeu o Real Madrid em casa e perdeu por 3 a 0. Kylian Mbappé abriu o placar aos 6 minutos do primeiro tempo, Dean Huijsen ampliou aos 20 e Carlos Espí fechou a conta aos 12 minutos do segundo tempo. Era o último teste de pré-temporada dos dois times.

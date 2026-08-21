@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como a audiência desta partida da Copa da Itália só se formou no segundo tempo e se desfez logo depois do apito final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Palermo', 'Lecce', 'Copa da Italia']
 categories = ['Audiência']
+campeonatos = ['Copa da Italia 2026']
+data_evento = 2026-08-17
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Palermo X Lecce, partida da 1ª rodada da Copa da Itália, em 17/08/2026. Foi a mais longa das medições que fizemos nessa rodada, com 151 registros, e a que continuou por mais tempo depois do apito final, indo até as 18:27:55. É também, por isso, a que melhor mostra o que acontece com a audiência quando a partida acaba. Como não foi possível confirmar a cronologia do jogo em fonte independente, o texto não traz placar nem gols.

@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do jogo de volta do playoff da Sul-Americana no SBT Sports, em uma virada que classificou o Santos"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SBT Sports', 'Santos', 'Universidad Central', 'Sul-Americana']
 categories = ['Audiência']
+campeonatos = ['Sul-Americana 2026']
+data_evento = 2026-07-28
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pelo SBT Sports, durante a transmissão de Santos X Universidad Central, jogo de volta do playoff da Copa Sul-Americana de 2026, que valia vaga nas oitavas de final, disputado no Estádio Urbano Caldeira, a Vila Belmiro, em Santos, em 28/07/2026. A partida terminou em 4 a 2 para o Santos, de virada: Samuel Sosa abriu o placar para o Universidad Central logo no primeiro minuto, Miguelito empatou aos 38 do primeiro tempo, Gabriel Barbosa e Gabriel Menino viraram aos 10 e aos 19 do segundo tempo, Mottes descontou aos 26 e Rony fechou a conta nos acréscimos. Com o 4 a 1 do jogo de ida, o Santos avançou com 8 a 3 no placar agregado.

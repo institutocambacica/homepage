@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = 'Veja como ficou a audiência da partida entre Giants e Commanders no último domingo.'
 tags = ['YouTube', 'Analytics', 'GETV', 'NFL']
 categories = ['Audiência']
+campeonatos = ['NFL 2025']
+data_evento = 2025-09-07
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtido pelo canal GETV durante a transmissão da partida dominical entre New York Giants e Washington Commanders válido na Semana 1 da NFL, disputado no dia 07/09/2025.

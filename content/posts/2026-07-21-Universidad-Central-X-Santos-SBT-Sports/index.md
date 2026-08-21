@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da ida do playoff da Copa Sul-Americana no SBT Sports, com goleada do Santos na Venezuela"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SBT Sports', 'Universidad Central', 'Santos', 'Sul-Americana']
 categories = ['Audiência']
+campeonatos = ['Sul-Americana 2026']
+data_evento = 2026-07-21
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pelo SBT Sports, durante a transmissão de Universidad Central X Santos, jogo de ida do playoff da Copa Sul-Americana de 2026, disputado no Estádio Misael Delgado, em Valencia, na Venezuela, em 21/07/2026. O Santos venceu por 4 a 1, com gols de Gabriel Bontempo, Gabriel Menino, Thaciano e Rony, e encaminhou a classificação para as oitavas de final.

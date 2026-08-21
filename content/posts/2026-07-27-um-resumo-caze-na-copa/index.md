@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Um resumo dos números obtidos pela CazéTV durante a Copa do Mundo de 2026"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazéTV', 'Copa do Mundo']
 categories = ['Documento']
+campeonatos = ['Copa do Mundo 2026']
+data_evento = 2026-07-27
 +++
 
 Este artigo tem como intuito deixar registrado o que infelizmente acabei falhando em registrar. Como foi dito anteriormente [neste artigo](/posts/2026-07-13-nossas-sinceras-desculpas/), problemas pessoais acabaram desmotivando em seguir com esse trabalho, e após as quartas de final, com os números impressionantes obtidos pela CazéTV, o arrependimento acabou acometendo o mantenedor deste projeto, e por isso retomamos com o projeto, e conseguimos registrar o comportamento da audiência da live mais assistida da história - a [semifinal exclusiva da CazéTV entre França e Espanha](/posts/2026-07-14-franca-x-espanha-cazetv/).

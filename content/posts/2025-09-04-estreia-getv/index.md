@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = 'Veja como ficou a audiência na estreia da GETV em 04/09/2025.'
 tags = ['YouTube', 'Analytics', 'GETV', 'Seleção Brasileira', 'Eliminatórias']
 categories = ['Audiência']
+campeonatos = ['Eliminatorias 2025']
+data_evento = 2025-09-04
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela GETV, em sua noite de estreia, em que transmitiu o jogo Brasil X Chile, válido pela penúltima rodada das Eliminatórias para a Copa do Mundo de 2026.

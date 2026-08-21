@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Uma nota sincera sobre a interrupção das medições durante a Copa do Mundo de 2026 e o anúncio da retomada do projeto a partir das semifinais."
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Copa do Mundo', 'Avisos']
 categories = ['Audiência']
+sem_campeonato = true
+data_evento = 2026-07-13
 +++
 
 O Instituto Cambacica de Audiência é mantido por uma única pessoa, e foi por questões de problemas pessoais dessa pessoa, somadas a limitações no armazenamento dos dados, que não pudemos dar continuidade às medições — e acabamos perdendo momentos importantes da história da mídia brasileira. Durante a histórica edição da Copa do Mundo de 2026, o canal CazéTV [aumentou seus inscritos em mais de 10 milhões](https://exame.com/esporte/cazetv-ganha-55-milhoes-de-inscritos-em-dez-dias-de-copa-do-mundo/) e [atingiu marcas inéditas de audiência](https://www.poder360.com.br/poder-midia/audiencia-da-cazetv-tem-novo-recorde-de-espectadores-com-virada-da-selecao/), tornando-se a maior live da história do YouTube. Lamentavelmente, não pudemos registrar esses feitos.

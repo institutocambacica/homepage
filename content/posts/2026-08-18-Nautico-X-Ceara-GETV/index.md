@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo da Série B na ge tv, num primeiro tempo esticado que empurrou o vale do intervalo para bem depois do usual"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Nautico', 'Ceara', 'Serie-B']
 categories = ['Audiência']
+campeonatos = ['Serie B 2026']
+data_evento = 2026-08-18
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela ge tv, durante a transmissão de Náutico X Ceará, jogo da 23ª rodada do Campeonato Brasileiro Série B de 2026, no Estádio dos Aflitos, em Recife, em 18/08/2026. A partida terminou em 1 a 0 para o Náutico, com gol de Léo Índio aos 53 minutos do primeiro tempo: a etapa inicial durou 53 minutos, esticada pelo atendimento ao goleiro Richard, do Ceará, que levou uma pancada na cabeça e quase saiu pelo protocolo de concussão, e o gol saiu no último lance dessa etapa.

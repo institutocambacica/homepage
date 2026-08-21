@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a menor audiência de futebol que medimos neste lote, na rodada de abertura da Copa da Itália pela SportyNet"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Frosinone', 'Juve Stabia', 'Copa da Italia']
 categories = ['Audiência']
+campeonatos = ['Copa da Italia 2026']
+data_evento = 2026-08-16
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Frosinone X Juve Stabia, partida da 1ª rodada da Copa da Itália, em 16/08/2026. O canal levou ao ar sete jogos dessa rodada de abertura, e esta é a medição de menor porte entre todas elas. A cronologia do jogo não apareceu em nenhuma fonte independente que consultamos e, sem ela, não há placar nem gols a relatar: o que segue é apenas o que a curva de audiência registrou, do primeiro ao último minuto de coleta.

@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do amistoso entre Inter de Milão e Real Bétis na SportyNet, numa medição que atingiu o máximo ainda no primeiro tempo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Inter de Milao', 'Real Betis', 'Amistoso']
 categories = ['Audiência']
+campeonatos = ['Amistosos 2026']
+data_evento = 2026-08-15
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Inter de Milão X Real Bétis, amistoso internacional preparatório para a temporada 2026/27, realizado no Estádio San Nicola, em Bari, em 15/08/2026 — apesar de ser a mandante, a Inter levou o jogo para Bari, e não para Milão. A partida terminou em 1 a 0 para a Inter de Milão, com gol de John Stones aos 37 minutos do segundo tempo, de cabeça, após cobrança de falta de Dimarco alçada por Pavard. Foi a estreia do zagueiro inglês pelo clube italiano.

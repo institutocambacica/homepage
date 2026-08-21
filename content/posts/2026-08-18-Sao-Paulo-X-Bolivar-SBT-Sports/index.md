@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da volta das oitavas da Sul-Americana na SBT Sports, numa medição que começou com a partida já em andamento"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SBT-Sports', 'Sao Paulo', 'Bolivar', 'Sul-Americana']
 categories = ['Audiência']
+campeonatos = ['Sul-Americana 2026']
+data_evento = 2026-08-18
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SBT Sports, durante a transmissão de São Paulo X Bolívar, jogo de volta das oitavas de final da Copa Sul-Americana de 2026, disputado no MorumBIS, em São Paulo, em 18/08/2026. O São Paulo venceu por 3 a 1, com gols de Luciano aos 18 minutos do primeiro tempo, de Jonathan Calleri, de pênalti, aos 23 minutos do segundo, e de Sabino aos 31; Dairon Asprilla fez o gol do Bolívar aos 16 minutos da etapa final. Com 4 a 2 no agregado, o São Paulo avançou às quartas de final, diante de 42.087 presentes.

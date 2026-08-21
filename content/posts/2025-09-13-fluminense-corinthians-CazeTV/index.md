@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência na última partida do Brasileirão transmitida pela CazéTV"
 tags = ['YouTube', 'Analytics', 'CazeTV', 'Fluminense', 'Corinthians', 'Brasileirão']
 categories = ['Audiência']
+campeonatos = ['Brasileirao 2025']
+data_evento = 2025-09-13
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, obtidos durante a transmissão do jogo Fluminense X Corinthians, válido pela Rodada 23 do Brasileirão, em 13/09/2025.

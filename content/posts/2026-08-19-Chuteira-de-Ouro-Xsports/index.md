@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da premiação da Chuteira de Ouro na Xsports, a menor de todas as medições deste lote"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Xsports', 'Premiacao']
 categories = ['Audiência']
+campeonatos = ['Premiacoes 2026']
+data_evento = 2026-08-19
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela Xsports, durante a transmissão da Chuteira de Ouro, premiação exibida ao vivo em 19/08/2026. Não se trata de um jogo: é a entrega de um prêmio individual, levada ao ar pelo canal na manhã do mesmo dia em que ele transmitiria, à noite, uma partida da Copa Argentina. Como não há jogo, também não há apito inicial, intervalo nem apito final a registrar, e a medição se resume aos dois extremos da janela coletada e ao ponto mais alto que a curva alcançou dentro dela.

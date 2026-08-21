@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da vitória do Criciúma sobre o Goiás na SportyNet, numa medição em que o máximo veio depois do apito final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Criciuma', 'Goias', 'Serie-B']
 categories = ['Audiência']
+campeonatos = ['Serie B 2026']
+data_evento = 2026-08-15
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Criciúma X Goiás, confronto da 22ª rodada do Campeonato Brasileiro Série B de 2026, no Estádio Heriberto Hülse, em Criciúma, em 15/08/2026. O Criciúma venceu por 1 a 0, com gol de Luciano Castán aos 5 minutos do primeiro tempo, o único da partida. Não houve cartões vermelhos. Com um só gol, e logo no começo, a curva de audiência tem um único degrau ligado ao placar, e ele aparece ainda nos primeiros minutos do jogo.

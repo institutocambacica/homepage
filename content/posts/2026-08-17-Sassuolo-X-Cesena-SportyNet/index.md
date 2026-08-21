@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de uma transmissão da Copa da Itália registrada com a menor quantidade de amostras de toda a rodada"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Sassuolo', 'Cesena', 'Copa da Italia']
 categories = ['Audiência']
+campeonatos = ['Copa da Italia 2026']
+data_evento = 2026-08-17
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Sassuolo X Cesena, partida da 1ª rodada da Copa da Itália, em 17/08/2026. Das sete medições que fizemos nessa rodada, é a que tem menos amostras: 46 registros entre o primeiro e o último minuto de coleta, porque a ferramenta passou a amostrar a cada quatro minutos em vez de a cada um. Não houve confirmação da cronologia do jogo em fonte independente, e por isso o texto descreve apenas a audiência.

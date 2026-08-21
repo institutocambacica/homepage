@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da 21ª rodada do Brasileirão na ge tv, em uma goleada encaminhada ainda no primeiro tempo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Vitoria', 'Palmeiras', 'Brasileirão']
 categories = ['Audiência']
+campeonatos = ['Brasileirao 2026']
+data_evento = 2026-07-29
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela ge tv, durante a transmissão de Vitória X Palmeiras, válido pela 21ª rodada do Brasileirão de 2026, disputado no Barradão, em Salvador, em 29/07/2026. A partida terminou em 4 a 0 para o Palmeiras: Maurício abriu o placar aos 46 minutos do primeiro tempo, Fabiano marcou contra aos 50 do primeiro tempo, e Jhon Arias e Ramón Sosa ampliaram aos 24 e aos 38 do segundo tempo. O Vitória terminou a etapa inicial com dois jogadores a menos, após as expulsões de Cacá, aos 37, e de Luan Cândido, aos 39 minutos.

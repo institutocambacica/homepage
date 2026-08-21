@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo da Série C na SportyNet, a menor das quatro medições que fizemos na mesma rodada"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Confianca', 'Maringa', 'Serie-C']
 categories = ['Audiência']
+campeonatos = ['Serie C 2026']
+data_evento = 2026-08-16
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Confiança X Maringá, partida da 17ª rodada do Campeonato Brasileiro Série C, em 16/08/2026. Entre as quatro medições que fizemos nessa rodada, é a mais curta e a de menor porte: a coleta durou pouco mais de duas horas, entrou com a transmissão já no ar e foi interrompida seis minutos depois do apito final. Nenhuma fonte independente que consultamos registrou a cronologia da partida, de modo que o relato se restringe aos pontos que a medição sustenta, sem placar e sem gols.

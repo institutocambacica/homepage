@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da ida das oitavas da Copa do Brasil na ge tv, na única medição desta série em que o pico ficou no primeiro tempo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Athletico-PR', 'Vitoria', 'Copa do Brasil']
 categories = ['Audiência']
+campeonatos = ['Copa do Brasil 2026']
+data_evento = 2026-08-03
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela ge tv, durante a transmissão de Athletico-PR X Vitória, jogo de ida das oitavas de final da Copa do Brasil de 2026, disputado na Arena da Baixada, em Curitiba, em 03/08/2026. A partida terminou em 2 a 0 para o Athletico-PR: João Cruz abriu o placar aos 9 minutos do primeiro tempo e Dudu Kogitzki ampliou aos 33 minutos do segundo tempo, depois de o Vitória ficar com um jogador a menos, com a expulsão de Emmanuel Martínez, por acúmulo de cartões amarelos, aos 22 minutos da etapa final. O público foi de 23.824 torcedores.

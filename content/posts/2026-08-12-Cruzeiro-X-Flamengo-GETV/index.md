@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da ida das oitavas da Libertadores na ge tv, no empate do Mineirão que deixou o confronto aberto"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Cruzeiro', 'Flamengo', 'Libertadores']
 categories = ['Audiência']
+campeonatos = ['Libertadores 2026']
+data_evento = 2026-08-12
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela ge tv, durante a transmissão de Cruzeiro X Flamengo, jogo de ida das oitavas de final da Libertadores da América de 2026, disputado no Mineirão, em Belo Horizonte, em 12/08/2026. A partida terminou em 1 a 1, diante de 60.046 presentes, o maior público do Mineirão em 2026: Keny Arroyo abriu o placar para o Cruzeiro aos 8 minutos do segundo tempo e Lucas Paquetá empatou para o Flamengo aos 22 minutos da mesma etapa. O confronto ficou aberto para o jogo de volta, no Maracanã.

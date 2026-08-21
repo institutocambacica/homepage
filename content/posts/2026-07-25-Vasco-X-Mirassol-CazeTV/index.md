@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da 20ª rodada do Brasileirão na CazéTV, em um empate que manteve o Vasco na zona de rebaixamento"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Vasco', 'Mirassol', 'Brasileirão']
 categories = ['Audiência']
+campeonatos = ['Brasileirao 2026']
+data_evento = 2026-07-25
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, durante a transmissão de Vasco X Mirassol, válido pela 20ª rodada do Brasileirão de 2026, disputado em São Januário, no Rio de Janeiro, em 25/07/2026. A partida terminou em 1 a 1: Igor Formiga abriu o placar para o Mirassol no primeiro tempo e Andrés Gómez empatou para o Vasco na etapa final.

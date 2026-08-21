@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do último amistoso de pré-temporada do Manchester United na SportyNet, numa tarde em que o Milan venceu de virada"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Manchester United', 'Milan', 'Amistoso']
 categories = ['Audiência']
+campeonatos = ['Amistosos 2026']
+data_evento = 2026-08-15
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Manchester United X Milan, amistoso internacional de pré-temporada realizado em campo neutro, na Tarczyński Arena, em Wrocław, na Polônia, em 15/08/2026, com o Manchester United como mandante nominal. O jogo terminou em 2 a 4: Harry Maguire abriu o placar aos 2 minutos do primeiro tempo e Samuel Chukwueze empatou aos 37; no segundo tempo, Patrick Dorgu recolocou o United à frente aos 6 minutos, e o Milan virou com Alphadjo Cissé aos 12, Gonçalo Ramos aos 23 e Ruben Loftus-Cheek aos 26.

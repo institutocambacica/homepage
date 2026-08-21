@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da disputa do terceiro lugar da Copa do Mundo de 2026, um jogo de dez gols"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'França', 'Inglaterra', 'Copa do Mundo']
 categories = ['Audiência']
+campeonatos = ['Copa do Mundo 2026']
+data_evento = 2026-07-18
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, durante a transmissão de França X Inglaterra, válido pela disputa do terceiro lugar da Copa do Mundo de 2026, realizada no Hard Rock Stadium, em Miami, em 18/07/2026. A Inglaterra venceu por 6 a 4, em uma partida com dez gols.

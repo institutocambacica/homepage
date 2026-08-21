@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a maior audiência da rodada de estreia do Campeonato Espanhol na CazéTV, numa partida cujo apito inicial a própria curva ajudou a datar"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Atletico de Madrid', 'Malaga', 'LaLiga']
 categories = ['Audiência']
+campeonatos = ['LaLiga 2026']
+data_evento = 2026-08-19
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, durante a transmissão de Atlético de Madrid X Málaga, partida da 1ª rodada do Campeonato Espanhol de 2026-27 (LaLiga EA Sports), no Riyadh Air Metropolitano, em Madri, em 19/08/2026. Foi a última das seis partidas da rodada que acompanhamos, já na quarta-feira, e o Atlético de Madrid venceu por 2 a 0, com os dois gols na etapa final: Lee Kang-in abriu o placar aos 70 minutos e Álex Baena ampliou aos 85.

@@ -6,6 +6,17 @@
    --code-border-radius), então o modo escuro funciona sozinho pela classe
    .dark que o tema põe no <body>. */
 
+/* ---------- Índice de campeonatos ---------- */
+
+/* Quantidade de medições ao lado de cada campeonato em /campeonatos/.
+   As linhas em si reaproveitam .tag-line/.tag-title do tema. */
+.tag-count {
+  font-family: var(--font-mono);
+  font-size: small;
+  color: var(--content-secondary);
+  margin-left: 0.4rem;
+}
+
 /* ---------- Busca no cabeçalho ---------- */
 
 /* O painel de resultados é posicionado contra .header-menu, não contra o

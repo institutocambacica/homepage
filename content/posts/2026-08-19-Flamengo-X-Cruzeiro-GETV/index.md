@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da volta das oitavas da Libertadores na ge tv, na noite em que o Flamengo eliminou o Cruzeiro no Maracanã"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Flamengo', 'Cruzeiro', 'Libertadores']
 categories = ['Audiência']
+campeonatos = ['Libertadores 2026']
+data_evento = 2026-08-19
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela ge tv, durante a transmissão de Flamengo X Cruzeiro, jogo de volta das oitavas de final da Libertadores da América de 2026, disputado no Maracanã, no Rio de Janeiro, em 19/08/2026. O Flamengo venceu por 2 a 1, com gols de Giorgian De Arrascaeta aos 35 minutos do primeiro tempo e de Samuel Lino aos 17 minutos do segundo; Lucas Romero descontou para o Cruzeiro aos 6 minutos da etapa final. Com 3 a 2 no agregado, o Flamengo avançou às quartas de final, diante de 72.481 presentes, recorde de público do Maracanã em 2026.

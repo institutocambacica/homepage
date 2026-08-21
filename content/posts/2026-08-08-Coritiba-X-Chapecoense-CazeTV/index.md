@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da vitória do Coritiba sobre a Chapecoense na CazéTV, numa medição em que a curva só reagiu depois do segundo gol"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Coritiba', 'Chapecoense', 'Brasileirao']
 categories = ['Audiência']
+campeonatos = ['Brasileirao 2026']
+data_evento = 2026-08-08
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, durante a transmissão de Coritiba X Chapecoense, partida da 22ª rodada do Campeonato Brasileiro Série A de 2026, disputada no Couto Pereira, em Curitiba, em 08/08/2026. O Coritiba venceu por 2 a 1: Tiago Cóser abriu o placar aos 31 minutos do primeiro tempo, Pedro Rocha ampliou aos 37 do segundo e Túlio Eduardo descontou para a Chapecoense aos 50, já nos acréscimos. Não houve cartões vermelhos. Vale registrar que este é um jogo da primeira divisão: os dois clubes subiram da Série B de 2025, o Coritiba como campeão e a Chapecoense em terceiro.

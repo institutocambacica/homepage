@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo da Série C na SportyNet, que superou os dois amistosos europeus levados ao ar pelo mesmo canal no mesmo dia"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Santa Cruz', 'Maranhao', 'Serie-C']
 categories = ['Audiência']
+campeonatos = ['Serie C 2026']
+data_evento = 2026-08-15
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Santa Cruz X Maranhão, partida da 17ª rodada do Campeonato Brasileiro Série C, em 15/08/2026. O canal anunciou a transmissão como exclusiva no próprio título do vídeo, e ela dividiu o sábado com dois amistosos internacionais na mesma emissora. A cronologia da partida não pôde ser confirmada em fonte independente, e por isso não há placar nem gols neste texto: o que se descreve abaixo é o que a medição registrou, minuto a minuto.

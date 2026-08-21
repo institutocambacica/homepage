@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = 'Veja quem ganhou na audiência no minuto a minuto no primeiro embate entre GETV e CazéTV.'
 tags = ['YouTube', 'Analytics', 'GETV', 'CazeTV', 'NFL']
 categories = ['Audiência']
+campeonatos = ['NFL 2025']
+data_evento = 2025-09-05
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pelos canais GETV e CazéTV, durante a partida entre Los Angeles Chargers vs. Kansas City Chiefs, jogo realizado na Neo Química Arena válido pela Semana 1 da NFL em 05/09/2025.

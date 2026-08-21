@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da primeira rodada da Copa da Itália na SportyNet, numa medição em que o intervalo desenhou o vale mais fundo da curva"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Genoa', 'Ascoli', 'Copa da Italia']
 categories = ['Audiência']
+campeonatos = ['Copa da Italia 2026']
+data_evento = 2026-08-16
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Genoa X Ascoli, partida da 1ª rodada da Copa da Itália, em 16/08/2026. É uma das medições que fizemos na rodada de abertura da competição italiana, todas no mesmo canal, e uma das menores deste lote em número de aparelhos conectados. Não conseguimos confirmar a cronologia da partida em fonte independente, de modo que este texto se limita ao que a própria medição registra.

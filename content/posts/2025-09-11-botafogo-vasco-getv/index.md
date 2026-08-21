@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = 'Veja como ficou a audiência do jogo Botafogo X Vasco na GETV em 11/09/2025.'
 tags = ['YouTube', 'Analytics', 'GETV', 'Botafogo', 'Vasco', 'Copa do Brasil']
 categories = ['Audiência']
+campeonatos = ['Copa do Brasil 2025']
+data_evento = 2025-09-11
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela GETV, durante a transmissão do jogo Botafogo X Vasco, válido pela volta das quartas de final da Copa do Brasil, em 11/09/2025.

@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da 14ª rodada do Brasileirão Feminino na ge tv, na vitória que devolveu a liderança ao Corinthians"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Flamengo', 'Corinthians', 'Brasileirão Feminino']
 categories = ['Audiência']
+campeonatos = ['Brasileirao Feminino 2026']
+data_evento = 2026-08-03
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela ge tv, durante a transmissão de Flamengo X Corinthians, válido pela 14ª rodada do Campeonato Brasileiro Feminino de 2026, disputado no Estádio Luso-Brasileiro, no Rio de Janeiro, em 03/08/2026. A partida terminou em 1 a 0 para o Corinthians: Jhonson marcou aos 11 minutos do primeiro tempo, após passe de Belén Aquino. O Timão ainda terminou o jogo com uma jogadora a menos, com a expulsão de Dayana Rodríguez aos 20 minutos do segundo tempo, e o resultado devolveu a liderança do campeonato à equipe paulista.

@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do amistoso entre Borussia Dortmund e Roma na SportyNet, numa curva que só ganhou volume no segundo tempo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Borussia Dortmund', 'Roma', 'Amistoso']
 categories = ['Audiência']
+campeonatos = ['Amistosos 2026']
+data_evento = 2026-08-15
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Borussia Dortmund X Roma, amistoso internacional de pré-temporada disputado no Signal Iduna Park, em Dortmund, em 15/08/2026, diante de um público de 81.365. A partida terminou em 2 a 2, com os quatro gols saindo ainda no primeiro tempo: Paulo Dybala abriu o placar para a Roma aos 4 minutos e Bryan Cristante ampliou aos 9, mas Julian Ryerson descontou aos 12 e Serhou Guirassy empatou aos 28. Era o último teste dos dois times antes do início oficial da temporada 2026/27.

@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de uma transmissão da Copa da Itália que já começou formada e se manteve estável do apito inicial ao final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Cremonese', 'Sampdoria', 'Copa da Italia']
 categories = ['Audiência']
+campeonatos = ['Copa da Italia 2026']
+data_evento = 2026-08-17
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Cremonese X Sampdoria, partida da 1ª rodada da Copa da Itália, em 17/08/2026. É uma das quatro medições que fizemos nessa competição em 17/08, todas no mesmo canal e em janelas que se sobrepõem ao longo do dia. Sem cronologia confirmada em fonte independente, o texto não traz placar, gols nem qualquer informação sobre a partida além do que a audiência registrou.

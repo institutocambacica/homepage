@@ -1,0 +1,22 @@
+{{/* Um campeonato: /campeonatos/<slug>/
+
+     Ordena por data_evento, NÃO por .Date. O campo `date` do frontmatter é a
+     data de publicação — 70 dos 75 posts divergem dela, e o lote de Nov/Dez
+     2025 só foi publicado em Jul 2026. Ordenar por .Date aqui embaralharia a
+     cronologia do campeonato. */}}
+
+{{ define "main" }}
+
+<div class="list-container">
+
+    {{ partial "breadcrumbs.html" . }}
+
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+
+    {{ range sort .Pages "Params.data_evento" "desc" }}
+    {{ partial "post-entry-evento.html" . }}
+    {{ end }}
+
+</div>
+{{ end }}

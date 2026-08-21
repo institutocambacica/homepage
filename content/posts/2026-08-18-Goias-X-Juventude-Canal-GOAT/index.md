@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo da Série B no Canal GOAT, único canal com uma só medição em todo o lote"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Canal-GOAT', 'Goias', 'Juventude', 'Serie-B']
 categories = ['Audiência']
+campeonatos = ['Serie B 2026']
+data_evento = 2026-08-18
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pelo Canal GOAT, durante a transmissão de Goiás X Juventude, jogo da 23ª rodada do Campeonato Brasileiro Série B de 2026, disputado no Estádio Hailé Pinheiro, o Serrinha, em Goiânia, em 18/08/2026. A partida terminou em 0 a 1, com gol de Fábio Lima, do Juventude, aos 43 minutos do segundo tempo. Foi o único gol da noite, e ele saiu no trecho mais assistido de toda a transmissão: o lance que decidiu o jogo coincide com o ponto mais alto da medição.

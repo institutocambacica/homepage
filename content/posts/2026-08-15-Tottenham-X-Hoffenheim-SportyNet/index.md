@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do amistoso entre Tottenham e Hoffenheim na SportyNet, numa medição em que o ponto mais alto veio antes do intervalo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Tottenham', 'Hoffenheim', 'Amistoso']
 categories = ['Audiência']
+campeonatos = ['Amistosos 2026']
+data_evento = 2026-08-15
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela SportyNet, durante a transmissão de Tottenham X Hoffenheim, amistoso internacional realizado em 15/08/2026. A partida entrou numa grade cheia: no mesmo dia, o canal transmitiu também jogos das Séries B e C do Brasileiro e outros amistosos entre clubes europeus, todos igualmente medidos por nós. Como não localizamos fonte independente que descrevesse o jogo, este texto não traz placar nem gols, e os horários de cada tempo vieram do próprio comportamento da audiência.

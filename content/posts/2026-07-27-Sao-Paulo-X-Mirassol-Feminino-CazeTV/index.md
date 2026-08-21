@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da 5ª rodada do Paulistão Feminino na CazéTV, a primeira medição de futebol feminino que publicamos"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Sao Paulo', 'Mirassol', 'Paulistão Feminino']
 categories = ['Audiência']
+campeonatos = ['Paulistao Feminino 2026']
+data_evento = 2026-07-27
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, durante a transmissão de São Paulo X Mirassol, válido pela 5ª rodada do Campeonato Paulista Feminino de 2026, disputado no Estádio Municipal Prefeito Gabriel Marques da Silva, em Santana de Parnaíba, em 27/07/2026. A partida terminou em 2 a 0 para o São Paulo: Bia Menezes abriu o placar aos 47 minutos do primeiro tempo e Kesia Sena ampliou aos 43 minutos do segundo tempo.

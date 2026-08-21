@@ -6,6 +6,8 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da 19ª rodada do Brasileirão na CazéTV, um dia depois das semifinais da Copa"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Botafogo', 'Santos', 'Brasileirão']
 categories = ['Audiência']
+campeonatos = ['Brasileirao 2026']
+data_evento = 2026-07-16
 +++
 
 Neste texto, vamos informar os resultados da audiência em tempo real obtidos pela CazéTV, durante a transmissão de Botafogo X Santos, válido pela 19ª rodada do Brasileirão de 2026, disputada no Estádio Nilton Santos, no Rio de Janeiro, em 16/07/2026. O Botafogo venceu por 2 a 1, com o gol da vitória nos acréscimos.
