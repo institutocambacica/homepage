@@ -1,0 +1,53 @@
+{{/* Header
+
+     Cópia de themes/typo/layouts/partials/header.html com o campo de busca
+     acrescentado ao final do menu. Ao atualizar o tema, conferir se o original
+     mudou.
+
+     O input nasce com `hidden`: sem JavaScript ele nunca aparece, em vez de
+     aparecer e não funcionar. assets/js/main.js remove o atributo.
+*/}}
+
+<div class="header">
+
+    {{ if or (not (.Param "hideHeader")) .IsHome }}
+
+    <h1 class="header-title">
+        <a href="{{ site.BaseURL }}">{{ site.Title }}</a>
+    </h1>
+
+    <div class="header-menu">
+        {{ $currentPage := . }}
+
+        {{ with site.Params.menu }}
+        {{ range . }}
+
+        <p
+            class="small {{ if eq .name (lower $currentPage.Name) }} bold {{end}}">
+            <a href="{{ .url }}" {{ if and (isset . "newTab") .newTab
+                }}target="_blank" rel="noopener noreferrer" {{ end }}>
+                /{{.name }}
+            </a>
+        </p>
+        {{ end }}
+        {{ end }}
+
+        {{/* Busca */}}
+        <div class="search" id="search">
+            <input type="search" id="search-input" class="small"
+                placeholder="buscar..."
+                aria-label="Buscar posts"
+                autocomplete="off"
+                role="combobox"
+                aria-expanded="false"
+                aria-controls="search-results"
+                {{ with site.Home.OutputFormats.Get "json" }}data-index="{{ .RelPermalink }}"{{ end }}
+                hidden>
+            <div id="search-results" class="search-results" role="listbox"
+                aria-label="Resultados da busca" hidden></div>
+        </div>
+    </div>
+
+    {{ end }}
+
+</div>

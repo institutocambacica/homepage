@@ -25,6 +25,12 @@ theme = 'typo'
   tag = 'tags'
   category = 'categories'
 
+[outputs]
+  # HTML precisa vir primeiro: é ele que define o permalink canônico da home.
+  # RSS precisa estar listado explicitamente, senão declarar este bloco derruba
+  # o feed. JSON é o índice de busca, renderizado por layouts/index.json.
+  home = ['HTML', 'RSS', 'JSON']
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

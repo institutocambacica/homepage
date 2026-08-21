@@ -1,0 +1,41 @@
+{{- /*
+  Índice de busca consumido por assets/js/main.js.
+
+  Chaves curtas de propósito — são 75+ registros e o payload é baixado pelo
+  leitor assim que ele foca o campo de busca:
+    t = título        s = resumo        g = tags
+    c = campeonato    e = data do evento (AAAA-MM-DD, ordenação)
+    d = data do evento já formatada    u = URL relativa
+
+  `d` vem formatada daqui, e não do JavaScript, de propósito: o time.Format do
+  Hugo depende da versão (a 0.149 do CI escreve "6 Aug 2026", a 0.164 escreve
+  "6 ago. 2026"). Formatando aqui, o dropdown mostra exatamente a mesma data
+  que as listas do site, em qualquer versão.
+
+  Usa .Params.summary, NUNCA .Summary: o resumo automático puxaria as tabelas
+  de audiência minuto a minuto do corpo do texto e multiplicaria o tamanho.
+*/ -}}
+{{- $dateFormat := site.Params.listDateFormat | default "2 Jan 2006" -}}
+{{- $index := slice -}}
+{{- range where site.RegularPages "Section" "posts" -}}
+  {{- $campeonato := "" -}}
+  {{- with .Params.campeonatos -}}
+    {{- $campeonato = index . 0 -}}
+  {{- end -}}
+  {{- $iso := "" -}}
+  {{- $exibicao := "" -}}
+  {{- with .Params.data_evento -}}
+    {{- $iso = . | time.Format "2006-01-02" -}}
+    {{- $exibicao = . | time.Format $dateFormat -}}
+  {{- end -}}
+  {{- $index = $index | append (dict
+      "t" .Title
+      "s" (.Params.summary | default "")
+      "g" (.Params.tags | default slice)
+      "c" $campeonato
+      "e" $iso
+      "d" $exibicao
+      "u" .RelPermalink
+  ) -}}
+{{- end -}}
+{{- $index | jsonify -}}

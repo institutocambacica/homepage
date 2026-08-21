@@ -1,0 +1,102 @@
+/* Sombreia themes/typo/assets/css/custom.css, que é só um comentário.
+   Já entra no pipeline de concat/minify em partials/head/css.html.
+
+   Só usa tokens que o tema já define (--background, --content-primary,
+   --content-secondary, --code-border, --code-background, --font-mono,
+   --code-border-radius), então o modo escuro funciona sozinho pela classe
+   .dark que o tema põe no <body>. */
+
+/* ---------- Busca no cabeçalho ---------- */
+
+/* O painel de resultados é posicionado contra .header-menu, não contra o
+   input: assim ele ocupa exatamente a largura da coluna de conteúdo em vez de
+   vazar pela direita a partir de onde o input calha de estar. */
+.header-menu {
+  position: relative;
+}
+
+.search {
+  margin-right: var(--header-menu-side-gap);
+  /* alinha com os <p class="small"> irmãos dentro de .header-menu */
+  margin-top: 0;
+}
+
+#search-input {
+  font-family: var(--font-mono);
+  font-size: small;
+  color: var(--content-primary);
+  background: var(--background);
+  border: 1px solid var(--code-border);
+  border-radius: var(--code-border-radius);
+  padding: 0.15rem 0.5rem;
+  width: 12rem;
+  max-width: 100%;
+}
+
+#search-input::placeholder {
+  color: var(--content-secondary);
+}
+
+#search-input:focus {
+  outline: none;
+  border-color: var(--content-secondary);
+}
+
+.search-results {
+  position: absolute;
+  top: calc(100% + 0.4rem);
+  left: 0;
+  right: 0;
+  z-index: 10;
+
+  max-height: 70vh;
+  overflow-y: auto;
+
+  background: var(--background);
+  border: 1px solid var(--code-border);
+  border-radius: var(--code-border-radius);
+  padding: 0.75rem 1rem;
+}
+
+/* As linhas de resultado reaproveitam .post-line/.line-date/.line-title do
+   tema; aqui só o espaçamento dentro do painel e o item destacado. */
+.search-results .post-line {
+  padding: 0.3rem 0.4rem;
+  border-radius: calc(var(--code-border-radius) / 2);
+}
+
+.search-results .post-line.is-active {
+  background: var(--code-background);
+}
+
+.search-results .line-summary {
+  /* resumos são longos; duas linhas bastam no dropdown */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.search-note {
+  font-family: var(--font-mono);
+  font-size: small;
+  color: var(--content-secondary);
+  margin: 0.3rem 0.4rem;
+}
+
+@media screen and (max-width: 640px) {
+  .search {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.5rem;
+  }
+
+  #search-input {
+    width: 100%;
+  }
+
+  /* a coluna de data fixa em 120px come a largura útil no celular */
+  .search-results .line-date {
+    display: none;
+  }
+}
