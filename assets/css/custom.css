@@ -80,9 +80,8 @@ html.search-open {
 }
 
 /* O atributo `hidden` só ganha de display:flex se dito explicitamente. Sem
-   estas linhas o botão e o overlay aparecem mesmo com o atributo — inclusive
-   para quem está sem JavaScript. */
-.search-toggle[hidden],
+   estas linhas o overlay aparece mesmo com o atributo — inclusive para quem
+   está sem JavaScript. */
 .search-overlay[hidden],
 .search-results[hidden] {
   display: none !important;
@@ -91,14 +90,18 @@ html.search-open {
 /* ----- Gatilho ----- */
 
 .search-toggle {
-  display: inline-flex;
+  /* liberado por html.js-search, logo abaixo */
+  display: none;
   align-items: center;
   justify-content: center;
   /* os irmãos são <p class="small"> com line-height 1.5; o align-self evita que
      o flex estique o botão até a altura da linha inteira */
   align-self: flex-start;
-  /* empurra a lupa para a direita da barra de menu */
-  margin: 0 0 0 auto;
+  /* Primeiro item do menu. O padding existe só para o realce de :hover; o
+     margin-left negativo o desconta, senão a lupa ficaria indentada em relação
+     ao título e aos links, que começam na borda da coluna. O margin-right
+     completa os .5rem de vão que .header p dá aos links. */
+  margin: 0 calc(var(--header-menu-side-gap) - 0.3rem) 0 -0.3rem;
   padding: 0 0.3rem;
   min-height: 1.5em;
   font-size: small;
@@ -110,6 +113,15 @@ html.search-open {
   border: 0;
   border-radius: calc(var(--code-border-radius) / 2);
   cursor: pointer;
+}
+
+/* Sem JavaScript a lupa não aparece: ela só abre um modal que o JS monta. O
+   gate é uma classe no <html>, posta pelo próprio main.js — que o tema injeta
+   no <head> sem `defer`, portanto antes de o <body> ser lido. Assim a lupa já
+   entra no primeiro paint; com o antigo `hidden` removido no DOMContentLoaded
+   ela nascia depois e, agora que é o primeiro item, empurrava o menu inteiro. */
+html.js-search .search-toggle {
+  display: inline-flex;
 }
 
 .search-toggle:hover {
@@ -330,12 +342,6 @@ html.search-open {
 /* ----- Celular: folha de tela cheia ----- */
 
 @media screen and (max-width: 640px) {
-  .search-toggle {
-    /* no menu quebrado em várias linhas o `auto` joga o ícone longe */
-    margin-left: 0;
-    margin-right: var(--header-menu-side-gap);
-  }
-
   .search-overlay {
     padding: 0;
     align-items: stretch;

@@ -5,6 +5,12 @@
  * um <script> SEM `defer`, dentro do <head> — ou seja, ele roda antes do DOM
  * existir. Daí o DOMContentLoaded envolvendo tudo.
  *
+ * Esse mesmo timing é o que faz a lupa aparecer sem solavanco: a classe
+ * `js-search` vai no <html> de forma síncrona, antes de o <body> ser lido, e é
+ * ela que dá display ao botão (assets/css/custom.css). Sem JavaScript a classe
+ * nunca chega e o gatilho não existe visualmente, que é o comportamento
+ * desejado — ele só serve para abrir um modal que o JS monta.
+ *
  * O índice (/index.json) só é baixado quando o leitor demonstra intenção de
  * buscar: passar o mouse ou o foco no botão aquece o cache, abrir o overlay
  * garante o download. A busca está em todas as páginas e nenhuma delas deve
@@ -37,6 +43,8 @@
     }
   }
 
+  document.documentElement.classList.add('js-search');
+
   ready(function () {
     var toggle = document.getElementById('search-toggle');
     var overlay = document.getElementById('search-overlay');
@@ -44,10 +52,11 @@
     var closer = document.getElementById('search-close');
     var input = document.getElementById('search-input');
     var panel = document.getElementById('search-results');
-    if (!toggle || !overlay || !dialog || !closer || !input || !panel) return;
-
-    // Há JS: o gatilho pode aparecer. O overlay segue com `hidden` até o clique.
-    toggle.hidden = false;
+    // Marcação incompleta: melhor nenhuma lupa do que uma lupa morta.
+    if (!toggle || !overlay || !dialog || !closer || !input || !panel) {
+      document.documentElement.classList.remove('js-search');
+      return;
+    }
 
     var reduced = !!(window.matchMedia &&
       window.matchMedia('(prefers-reduced-motion: reduce)').matches);
