@@ -5,9 +5,10 @@
  * um <script> SEM `defer`, dentro do <head> — ou seja, ele roda antes do DOM
  * existir. Daí o DOMContentLoaded envolvendo tudo.
  *
- * O índice (/index.json) só é baixado quando o leitor interage com o campo:
- * a busca está em todas as páginas e nenhuma delas deve pagar por ela ao
- * carregar.
+ * O índice (/index.json) só é baixado quando o leitor demonstra intenção de
+ * buscar: passar o mouse ou o foco no botão aquece o cache, abrir o overlay
+ * garante o download. A busca está em todas as páginas e nenhuma delas deve
+ * pagar por ela ao carregar.
  */
 
 (function () {
@@ -15,6 +16,11 @@
 
   var MAX_RESULTS = 8;
   var DEBOUNCE_MS = 120;
+
+  /* Tempo do fade de saída — precisa bater com a transição de .search-overlay
+     em custom.css. Usamos timer e não `transitionend` porque com
+     prefers-reduced-motion a transição não acontece e o evento nunca chega. */
+  var EXIT_MS = 180;
 
   /* Acento-insensível: 'brasileirao' precisa achar 'Brasileirão'.
      O bloco U+0300–U+036F cobre til, agudo, circunflexo e a cedilha
@@ -32,19 +38,28 @@
   }
 
   ready(function () {
+    var toggle = document.getElementById('search-toggle');
+    var overlay = document.getElementById('search-overlay');
+    var dialog = document.getElementById('search-dialog');
+    var closer = document.getElementById('search-close');
     var input = document.getElementById('search-input');
     var panel = document.getElementById('search-results');
-    var wrapper = document.getElementById('search');
-    if (!input || !panel || !wrapper) return;
+    if (!toggle || !overlay || !dialog || !closer || !input || !panel) return;
 
-    // Há JS: o campo pode aparecer.
-    input.hidden = false;
+    // Há JS: o gatilho pode aparecer. O overlay segue com `hidden` até o clique.
+    toggle.hidden = false;
+
+    var reduced = !!(window.matchMedia &&
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches);
 
     var records = null;      // índice normalizado, carregado sob demanda
     var loading = null;      // promise em voo, para não baixar duas vezes
     var results = [];        // resultados da consulta atual
     var active = -1;         // item destacado pelo teclado
     var timer = null;
+    var exitTimer = null;    // esconde o overlay depois do fade
+    var lastFocus = null;    // para quem devolver o foco ao fechar
+    var downOnScrim = false; // ver o par mousedown/click do escurecido
 
     function load() {
       if (records) return Promise.resolve(records);
@@ -114,7 +129,8 @@
       return scored.map(function (x) { return x.rec.raw; });
     }
 
-    function close() {
+    /* Só limpa a listbox; quem fecha o modal é closeOverlay(). */
+    function clearResults() {
       panel.hidden = true;
       panel.textContent = '';
       input.setAttribute('aria-expanded', 'false');
@@ -170,7 +186,7 @@
       active = -1;
 
       if (!query) {
-        close();
+        clearResults();
         return;
       }
 
@@ -217,7 +233,7 @@
     function run() {
       var query = input.value.trim();
       if (!query) {
-        close();
+        clearResults();
         return;
       }
       load().then(function () {
@@ -229,20 +245,123 @@
       });
     }
 
-    input.addEventListener('focus', load);
+    function openOverlay() {
+      if (!overlay.hidden) return;
+
+      clearTimeout(exitTimer);
+      lastFocus = document.activeElement;
+
+      overlay.hidden = false;
+      document.documentElement.classList.add('search-open');
+      toggle.setAttribute('aria-expanded', 'true');
+
+      /* Dois requestAnimationFrame: com um só, o navegador às vezes junta o
+         `hidden = false` e o `.is-open` no mesmo quadro de estilo e a transição
+         não roda — o modal aparece estalado. O primeiro quadro pinta o estado
+         inicial (opacidade 0), o segundo dispara a transição. */
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () {
+          overlay.classList.add('is-open');
+        });
+      });
+
+      /* Foco síncrono, dentro do gesto do clique: no iOS um focus() adiado para
+         dentro do rAF não abre o teclado virtual. preventScroll porque a página
+         está travada atrás do overlay. */
+      try {
+        input.focus({ preventScroll: true });
+      } catch (e) {
+        input.focus();
+      }
+
+      load();
+    }
+
+    function closeOverlay() {
+      if (overlay.hidden) return;
+
+      overlay.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded', 'false');
+      document.documentElement.classList.remove('search-open');
+
+      clearTimeout(timer);
+      input.value = '';
+      clearResults();
+
+      clearTimeout(exitTimer);
+      exitTimer = setTimeout(function () {
+        overlay.hidden = true;
+      }, reduced ? 0 : EXIT_MS);
+
+      /* Devolve o foco a quem abriu. Aberto pelo atalho de teclado, o
+         activeElement era o <body>, que não recebe foco — nesse caso o destino
+         certo é a lupa, senão o próximo Tab recomeça do topo da página. */
+      var back = (lastFocus && lastFocus.focus && lastFocus !== document.body)
+        ? lastFocus
+        : toggle;
+      back.focus();
+      lastFocus = null;
+    }
+
+    /* Só há dois controles fixos (campo e fechar), mas os títulos dos resultados
+       são links e entram na ordem de tabulação — por isso a lista é recalculada
+       a cada Tab em vez de memorizada. offsetParent nulo descarta o que está
+       dentro do painel escondido. */
+    function focusable() {
+      var all = dialog.querySelectorAll('input, button, a[href]');
+      var out = [];
+      for (var i = 0; i < all.length; i++) {
+        if (all[i].offsetParent !== null) out.push(all[i]);
+      }
+      return out;
+    }
+
+    function trap(e) {
+      var f = focusable();
+      if (!f.length) return;
+
+      var first = f[0];
+      var last = f[f.length - 1];
+
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    }
+
+    toggle.addEventListener('click', openOverlay);
+    closer.addEventListener('click', closeOverlay);
+
+    /* Aquece o índice antes do clique: passar o mouse ou tabular até o botão já
+       é intenção suficiente, e load() é idempotente. */
+    toggle.addEventListener('pointerenter', load);
+    toggle.addEventListener('focus', load);
 
     input.addEventListener('input', function () {
       clearTimeout(timer);
       timer = setTimeout(run, DEBOUNCE_MS);
     });
 
-    input.addEventListener('keydown', function (e) {
+    /* O keydown fica no overlay, não no campo: assim o Esc fecha mesmo com o
+       foco no botão de fechar ou num link de resultado. */
+    overlay.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') {
-        close();
-        input.blur();
+        e.preventDefault();   // senão o Chrome só limpa o type=search
+        closeOverlay();
         return;
       }
-      if (panel.hidden) return;
+
+      if (e.key === 'Tab') {
+        trap(e);
+        return;
+      }
+
+      // as setas e o Enter só valem no campo; num link de resultado o Enter tem
+      // de seguir o link normalmente
+      if (e.target !== input || panel.hidden) return;
 
       if (e.key === 'ArrowDown') {
         e.preventDefault();
@@ -260,8 +379,35 @@
       }
     });
 
-    document.addEventListener('click', function (e) {
-      if (!wrapper.contains(e.target)) close();
+    /* Clique no escurecido fecha. O par mousedown/click existe porque
+       selecionar texto dentro do diálogo e soltar o botão fora dispara um click
+       cujo alvo é o ancestral comum — o overlay — e fecharia sozinho. */
+    overlay.addEventListener('mousedown', function (e) {
+      downOnScrim = (e.target === overlay);
+    });
+
+    overlay.addEventListener('click', function (e) {
+      if (e.target === overlay && downOnScrim) closeOverlay();
+      downOnScrim = false;
+    });
+
+    /* Atalhos globais: "/" e Ctrl/Cmd+K abrem a busca. Ignora quando o leitor já
+       está digitando em algum campo. */
+    document.addEventListener('keydown', function (e) {
+      if (!overlay.hidden) return;
+
+      var el = document.activeElement;
+      var tag = el && el.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' ||
+          (el && el.isContentEditable)) return;
+
+      var slash = e.key === '/' && !e.ctrlKey && !e.metaKey && !e.altKey;
+      var ctrlK = (e.key === 'k' || e.key === 'K') && (e.ctrlKey || e.metaKey);
+
+      if (slash || ctrlK) {
+        e.preventDefault();
+        openOverlay();
+      }
     });
   });
 })();

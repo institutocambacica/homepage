@@ -6,6 +6,20 @@
    --code-border-radius), então o modo escuro funciona sozinho pela classe
    .dark que o tema põe no <body>. */
 
+/* ---------- Ajustes globais ---------- */
+
+/* reset.css põe overflow-y:scroll no <html>, então quem rola é o
+   documentElement: travar o <body> ao abrir o overlay de busca não faria nada.
+   O scrollbar-gutter mantém a calha reservada enquanto o overflow está hidden,
+   senão a página dá um pulo lateral ao abrir o modal. */
+html {
+  scrollbar-gutter: stable;
+}
+
+html.search-open {
+  overflow: hidden;
+}
+
 /* ---------- Índice de campeonatos ---------- */
 
 /* Quantidade de medições ao lado de cada campeonato em /campeonatos/.
@@ -17,73 +31,291 @@
   margin-left: 0.4rem;
 }
 
-/* ---------- Busca no cabeçalho ---------- */
+/* ---------- Busca: gatilho no cabeçalho + overlay modal ---------- */
 
-/* O painel de resultados é posicionado contra .header-menu, não contra o
-   input: assim ele ocupa exatamente a largura da coluna de conteúdo em vez de
-   vazar pela direita a partir de onde o input calha de estar. */
-.header-menu {
-  position: relative;
+/* O tema só oferece cinco cores e, no modo claro, --background e
+   --code-background são #fff e #f9f9f9: quase indistinguíveis. Por isso o modal
+   não se apoia só nos tokens; ele monta camadas com rgba dos MESMOS RGBs dos
+   tokens, declaradas em variáveis locais e redeclaradas em .dark.
+
+   rgba literal em vez de color-mix de propósito: o fallback por dupla
+   declaração NÃO funciona em custom property — a declaração desconhecida vence
+   o cascade e só falha no uso, deixando a cor vazia.
+
+   As camadas, de trás para frente:
+     1. página, escurecida e desfocada pelo scrim
+     2. superfície do modal — elevada, com borda e sombra
+     3. campo de busca — rebaixado dentro da superfície
+     4. linha ativa — destacada dentro da lista, com barra lateral */
+
+.search-overlay {
+  /* claro: modal branco puro sobre página escurecida */
+  --search-scrim: rgba(36, 36, 36, 0.45);
+  --search-surface: var(--background);
+  --search-border: var(--code-border);
+  --search-shadow:
+    0 24px 60px rgba(0, 0, 0, 0.22),
+    0 6px 16px rgba(0, 0, 0, 0.1);
+  --search-edge: inset 0 1px 0 rgba(255, 255, 255, 0);
+  --search-field-bg: rgba(36, 36, 36, 0.05);
+  --search-field-ring: rgba(36, 36, 36, 0.16);
+  --search-row-hover: rgba(36, 36, 36, 0.05);
+  --search-row-active: rgba(36, 36, 36, 0.1);
 }
 
-.search {
-  margin-right: var(--header-menu-side-gap);
-  /* alinha com os <p class="small"> irmãos dentro de .header-menu */
-  margin-top: 0;
+.dark .search-overlay {
+  /* escuro: a superfície precisa ser MAIS CLARA que a página (#141414) para
+     ler como elevada, e o campo volta à cor da página, rebaixado. */
+  --search-scrim: rgba(0, 0, 0, 0.66);
+  --search-surface: var(--code-background);
+  --search-border: var(--code-border);
+  --search-shadow:
+    0 24px 64px rgba(0, 0, 0, 0.72),
+    0 6px 18px rgba(0, 0, 0, 0.55);
+  --search-edge: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  --search-field-bg: var(--background);
+  --search-field-ring: rgba(218, 218, 218, 0.22);
+  --search-row-hover: rgba(218, 218, 218, 0.07);
+  --search-row-active: rgba(218, 218, 218, 0.15);
 }
 
-#search-input {
-  font-family: var(--font-mono);
+/* O atributo `hidden` só ganha de display:flex se dito explicitamente. Sem
+   estas linhas o botão e o overlay aparecem mesmo com o atributo — inclusive
+   para quem está sem JavaScript. */
+.search-toggle[hidden],
+.search-overlay[hidden],
+.search-results[hidden] {
+  display: none !important;
+}
+
+/* ----- Gatilho ----- */
+
+.search-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* os irmãos são <p class="small"> com line-height 1.5; o align-self evita que
+     o flex estique o botão até a altura da linha inteira */
+  align-self: flex-start;
+  /* empurra a lupa para a direita da barra de menu */
+  margin: 0 0 0 auto;
+  padding: 0 0.3rem;
+  min-height: 1.5em;
   font-size: small;
+  line-height: 1.5;
+  /* mesma cor dos links do menu: é a única porta de entrada da busca, não pode
+     ficar apagada como um detalhe secundário */
   color: var(--content-primary);
-  background: var(--background);
-  border: 1px solid var(--code-border);
-  border-radius: var(--code-border-radius);
-  padding: 0.15rem 0.5rem;
-  width: 12rem;
-  max-width: 100%;
-}
-
-#search-input::placeholder {
-  color: var(--content-secondary);
-}
-
-#search-input:focus {
-  outline: none;
-  border-color: var(--content-secondary);
-}
-
-.search-results {
-  position: absolute;
-  top: calc(100% + 0.4rem);
-  left: 0;
-  right: 0;
-  z-index: 10;
-
-  max-height: 70vh;
-  overflow-y: auto;
-
-  background: var(--background);
-  border: 1px solid var(--code-border);
-  border-radius: var(--code-border-radius);
-  padding: 0.75rem 1rem;
-}
-
-/* As linhas de resultado reaproveitam .post-line/.line-date/.line-title do
-   tema; aqui só o espaçamento dentro do painel e o item destacado. */
-.search-results .post-line {
-  padding: 0.3rem 0.4rem;
+  background: none;
+  border: 0;
   border-radius: calc(var(--code-border-radius) / 2);
+  cursor: pointer;
 }
 
-.search-results .post-line.is-active {
+.search-toggle:hover {
   background: var(--code-background);
 }
 
+/* reset.css zera o outline de button/input; aqui ele volta, só no foco por
+   teclado. */
+.search-toggle:focus-visible {
+  outline: 2px solid var(--content-primary);
+  outline-offset: 2px;
+}
+
+.search-icon {
+  width: 1.25em;
+  height: 1.25em;
+  display: block;
+}
+
+/* ----- Overlay ----- */
+
+.search-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+
+  display: flex;
+  justify-content: center;
+  /* ancorado no alto: a lista cresce para baixo sem empurrar o campo */
+  align-items: flex-start;
+  padding: min(12vh, 6rem) 1rem 2rem;
+
+  background: var(--search-scrim);
+  -webkit-backdrop-filter: blur(4px) saturate(0.9);
+  backdrop-filter: blur(4px) saturate(0.9);
+
+  opacity: 0;
+  transition: opacity 0.16s ease;
+}
+
+.search-overlay.is-open {
+  opacity: 1;
+}
+
+/* Durante o fade de saída o overlay ainda está no DOM; sem isto ele engole
+   cliques na página por ~0,18 s. */
+.search-overlay:not(.is-open) {
+  pointer-events: none;
+}
+
+/* ----- Diálogo ----- */
+
+.search-dialog {
+  width: 100%;
+  max-width: 640px;
+  /* dvh acompanha a barra de endereço do celular; vh é o fallback */
+  max-height: calc(100vh - min(12vh, 6rem) - 2rem);
+  max-height: calc(100dvh - min(12vh, 6rem) - 2rem);
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  background: var(--search-surface);
+  border: 1px solid var(--search-border);
+  border-radius: var(--code-border-radius);
+  box-shadow: var(--search-shadow), var(--search-edge);
+
+  opacity: 0;
+  transform: translateY(-10px) scale(0.985);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.search-overlay.is-open .search-dialog {
+  opacity: 1;
+  transform: none;
+}
+
+/* ----- Campo ----- */
+
+.search-field {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 0 0 auto;
+
+  margin: 0.75rem;
+  padding: 0.5rem 0.7rem;
+
+  background: var(--search-field-bg);
+  border: 1px solid var(--search-border);
+  border-radius: calc(var(--code-border-radius) - 2px);
+  transition: border-color 0.12s ease, box-shadow 0.12s ease;
+}
+
+.search-field:focus-within {
+  border-color: var(--content-secondary);
+  box-shadow: 0 0 0 3px var(--search-field-ring);
+}
+
+.search-field-icon {
+  width: 1.1em;
+  height: 1.1em;
+  flex: 0 0 auto;
+  color: var(--content-secondary);
+}
+
+.search-field input {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-family: var(--font-mono);
+  /* 16px no mínimo: abaixo disso o iOS dá zoom ao focar */
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--content-primary);
+  background: none;
+  border: 0;
+  outline: none;
+  padding: 0;
+}
+
+.search-field input::placeholder {
+  color: var(--content-secondary);
+}
+
+/* o X nativo do type=search duplicaria o botão de fechar */
+.search-field input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.search-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 1.6rem;
+  height: 1.6rem;
+  padding: 0;
+  color: var(--content-secondary);
+  background: none;
+  border: 0;
+  border-radius: calc(var(--code-border-radius) / 2);
+  cursor: pointer;
+}
+
+.search-close svg {
+  width: 1em;
+  height: 1em;
+  display: block;
+}
+
+.search-close:hover {
+  color: var(--content-primary);
+  background: var(--search-row-hover);
+}
+
+.search-close:focus-visible {
+  outline: 2px solid var(--content-primary);
+  outline-offset: 1px;
+}
+
+/* ----- Resultados ----- */
+
+.search-results {
+  flex: 1 1 auto;
+  /* sem isto o filho flex se recusa a encolher e o scroll nunca aparece */
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  /* o <html> do tema tem scroll-behavior:smooth; aqui a navegação por seta
+     precisa ser instantânea */
+  scroll-behavior: auto;
+
+  padding: 0.5rem 0.75rem 0.75rem;
+  border-top: 1px solid var(--search-border);
+}
+
+/* As linhas reaproveitam .post-line/.line-date/.line-title/.line-summary do
+   tema; aqui só o espaçamento dentro do painel e o item destacado. */
+.search-results .post-line {
+  margin-bottom: 0;
+  padding: 0.4rem 0.5rem;
+  border-radius: calc(var(--code-border-radius) / 2);
+}
+
+.search-results .post-line:hover {
+  background: var(--search-row-hover);
+}
+
+.search-results .post-line.is-active {
+  background: var(--search-row-active);
+  /* a barra lateral não depende de contraste de fundo: funciona igual nos dois
+     modos e para quem enxerga pouca diferença de tom */
+  box-shadow: inset 3px 0 0 var(--content-primary);
+}
+
+.search-results .post-line.is-active .line-date {
+  color: var(--content-primary);
+}
+
 .search-results .line-summary {
-  /* resumos são longos; duas linhas bastam no dropdown */
+  /* resumos são longos; duas linhas bastam na lista */
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -92,22 +324,49 @@
   font-family: var(--font-mono);
   font-size: small;
   color: var(--content-secondary);
-  margin: 0.3rem 0.4rem;
+  margin: 0.5rem;
 }
 
+/* ----- Celular: folha de tela cheia ----- */
+
 @media screen and (max-width: 640px) {
-  .search {
-    width: 100%;
-    margin-right: 0;
-    margin-top: 0.5rem;
+  .search-toggle {
+    /* no menu quebrado em várias linhas o `auto` joga o ícone longe */
+    margin-left: 0;
+    margin-right: var(--header-menu-side-gap);
   }
 
-  #search-input {
-    width: 100%;
+  .search-overlay {
+    padding: 0;
+    align-items: stretch;
+  }
+
+  .search-dialog {
+    max-width: none;
+    height: 100vh;
+    height: 100dvh;
+    max-height: none;
+    border: 0;
+    border-radius: 0;
+    transform: none;
   }
 
   /* a coluna de data fixa em 120px come a largura útil no celular */
   .search-results .line-date {
     display: none;
+  }
+}
+
+/* ----- Movimento reduzido ----- */
+
+@media (prefers-reduced-motion: reduce) {
+  .search-overlay,
+  .search-dialog,
+  .search-field {
+    transition: none;
+  }
+
+  .search-dialog {
+    transform: none;
   }
 }
