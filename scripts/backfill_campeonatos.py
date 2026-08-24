@@ -59,6 +59,15 @@ ALIASES = {
     "NFL": "NFL",
     "Amistoso": "Amistosos",
     "Premiacao": "Premiacoes",
+    # Competições que entraram com o lote de 20 a 23/08/2026.
+    "Ligue 1": "Ligue 1",
+    "Premier League": "Premier League",
+    "Saudi Pro League": "Saudi Pro League",
+    "Supercopa da Alemanha": "Supercopa da Alemanha",
+    "Serie A Italiana": "Serie A Italiana",
+    "Serie B Italiana": "Serie B Italiana",
+    "NWSL": "NWSL",
+    "Diamond League": "Diamond League",
 }
 
 # 'Avisos' está fora da tabela DE PROPÓSITO: é uma tag de nota institucional,

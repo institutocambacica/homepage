@@ -1,0 +1,7 @@
++++
+# O termo no frontmatter dos posts e ASCII ('serie-b-italiana-2026') para manter a URL
+# limpa; o nome acentuado de exibicao e este title.
+title = 'Série B Italiana 2026/27'
+# `ano` e a chave de agrupamento em /campeonatos/. Vem do ano do evento.
+ano = 2026
++++
