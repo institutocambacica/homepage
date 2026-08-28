@@ -68,6 +68,11 @@ ALIASES = {
     "Serie B Italiana": "Serie B Italiana",
     "NWSL": "NWSL",
     "Diamond League": "Diamond League",
+    # Competições que entraram com o lote de 26 e 27/08/2026.
+    "Copa Intercontinental": "Copa Intercontinental",
+    "Europa League": "Europa League",
+    "Eliminatórias da Copa do Mundo de Basquete": "Eliminatorias da Copa do Mundo de Basquete",
+    "ATP Challenger": "ATP Challenger",
 }
 
 # 'Avisos' está fora da tabela DE PROPÓSITO: é uma tag de nota institucional,
