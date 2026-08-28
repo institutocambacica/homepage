@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da maior transmissão da CazéTV no lote, decidida por um gol aos 90 minutos que levou a curva ao topo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Espanyol', 'Real Madrid', 'LaLiga']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['LaLiga 2026']
 data_evento = 2026-08-22
 +++

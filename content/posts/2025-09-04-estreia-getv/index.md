@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = 'Veja como ficou a audiência na estreia da GETV em 04/09/2025.'
 tags = ['YouTube', 'Analytics', 'GETV', 'Seleção Brasileira', 'Eliminatórias']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Eliminatorias 2025']
 data_evento = 2025-09-04
 +++

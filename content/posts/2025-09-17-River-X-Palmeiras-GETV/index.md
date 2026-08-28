@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da primeira partida da Libertadores transmitida pela GETV"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Palmeiras', 'River Plate', 'Libertadores']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Libertadores 2025']
 data_evento = 2025-09-17
 +++

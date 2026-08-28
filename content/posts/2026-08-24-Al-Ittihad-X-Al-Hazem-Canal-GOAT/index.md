@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do hat-trick de Bergwijn no Canal GOAT, numa curva que dobrou de tamanho no segundo tempo depois de perder metade do público no intervalo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Canal-GOAT', 'Al-Ittihad', 'Al-Hazem', 'Saudi Pro League']
 categories = ['Audiência']
+canais = ['Canal GOAT']
 campeonatos = ['Saudi Pro League 2026']
 data_evento = 2026-08-24
 +++

@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo com expulsão aos 11 minutos na CazéTV, com a maior retenção pós-jogo de todo o lote"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Athletic Bilbao', 'Sevilla', 'LaLiga']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['LaLiga 2026']
 data_evento = 2026-08-22
 +++

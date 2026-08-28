@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do amistoso entre Borussia Dortmund e Roma na SportyNet, numa curva que só ganhou volume no segundo tempo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Borussia Dortmund', 'Roma', 'Amistoso']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Amistosos 2026']
 data_evento = 2026-08-15
 +++

@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de Al-Ahli X Auckland FC na CazéTV"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Al-Ahli', 'Auckland FC', 'Copa Intercontinental']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Copa Intercontinental 2026']
 data_evento = 2026-08-26
 +++

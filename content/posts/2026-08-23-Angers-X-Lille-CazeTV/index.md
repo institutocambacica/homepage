@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do jogo de domingo pela manhã na CazéTV, com o público praticamente parado durante todo o segundo tempo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Angers', 'Lille', 'Ligue 1']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Ligue 1 2026']
 data_evento = 2026-08-23
 +++

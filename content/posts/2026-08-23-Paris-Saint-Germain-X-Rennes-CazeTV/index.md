@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do jogo com a maior queda de intervalo de todo o lote na CazéTV, num empate em que o mando foi invertido às vésperas"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Paris Saint-Germain', 'Rennes', 'Ligue 1']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Ligue 1 2026']
 data_evento = 2026-08-23
 +++

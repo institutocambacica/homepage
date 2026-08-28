@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de NC Courage X Angel City no Canal GOAT"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Canal-GOAT', 'NC Courage', 'Angel City', 'NWSL']
 categories = ['Audiência']
+canais = ['Canal GOAT']
 campeonatos = ['NWSL 2026']
 data_evento = 2026-08-26
 +++

@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Uma nota sincera sobre a interrupção das medições durante a Copa do Mundo de 2026 e o anúncio da retomada do projeto a partir das semifinais."
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Copa do Mundo', 'Avisos']
 categories = ['Audiência']
+canais = ['CazeTV']
 sem_campeonato = true
 data_evento = 2026-07-13
 +++

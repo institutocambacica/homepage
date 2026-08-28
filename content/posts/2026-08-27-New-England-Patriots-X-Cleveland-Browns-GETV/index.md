@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de New England Patriots X Cleveland Browns na ge tv"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'New England Patriots', 'Cleveland Browns', 'NFL']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['NFL 2026']
 data_evento = 2026-08-27
 +++

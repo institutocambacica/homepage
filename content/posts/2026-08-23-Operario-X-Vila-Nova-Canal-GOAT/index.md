@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um 0 a 0 da Série B no Canal GOAT, que cresceu 71% no segundo tempo sem que a bola entrasse"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Canal-GOAT', 'Operario', 'Vila Nova', 'Serie-B']
 categories = ['Audiência']
+canais = ['Canal GOAT']
 campeonatos = ['Serie B 2026']
 data_evento = 2026-08-23
 +++

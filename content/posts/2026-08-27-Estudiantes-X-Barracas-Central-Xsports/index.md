@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de Estudiantes X Barracas Central na Xsports"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Xsports', 'Estudiantes', 'Barracas Central', 'Copa Argentina']
 categories = ['Audiência']
+canais = ['Xsports']
 campeonatos = ['Copa Argentina 2026']
 data_evento = 2026-08-27
 +++

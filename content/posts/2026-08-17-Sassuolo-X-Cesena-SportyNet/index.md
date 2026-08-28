@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de uma transmissão da Copa da Itália registrada com a menor quantidade de amostras de toda a rodada"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Sassuolo', 'Cesena', 'Copa da Italia']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Copa da Italia 2026']
 data_evento = 2026-08-17
 +++

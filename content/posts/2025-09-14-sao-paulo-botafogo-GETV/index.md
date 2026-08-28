@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como ficou a evolução da audiência no último jogo da GETV"
 tags = ['YouTube', 'Analytics', 'GETV', 'Botafogo', 'São Paulo', 'Brasileirão']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Brasileirao 2025']
 data_evento = 2025-09-14
 +++

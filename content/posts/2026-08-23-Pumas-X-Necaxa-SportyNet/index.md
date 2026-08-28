@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do empate agônico da Liga MX na SportyNet, num intervalo que não custou nada à transmissão"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Pumas', 'Necaxa', 'Campeonato Mexicano']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Campeonato Mexicano 2026']
 data_evento = 2026-08-23
 +++

@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do jogo da CazéTV"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazéTV', 'Corinthians', 'Athletico Paranaense', 'Brasileirao']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Brasileirao 2026']
 data_evento = 2026-07-30
 +++

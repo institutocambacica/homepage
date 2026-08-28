@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo da Série C na SportyNet, numa curva cujo ponto mais alto só chegou depois do apito final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Amazonas', 'Botafogo-PB', 'Serie-C']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Serie C 2026']
 data_evento = 2026-08-15
 +++

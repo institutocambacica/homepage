@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo da Série C na SportyNet, a menor das quatro medições que fizemos na mesma rodada"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Confianca', 'Maringa', 'Serie-C']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Serie C 2026']
 data_evento = 2026-08-16
 +++

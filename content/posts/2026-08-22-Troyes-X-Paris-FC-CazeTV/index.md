@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do retorno do Troyes à elite francesa na CazéTV, num 0 a 0 em que a audiência quadruplicou depois do intervalo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Troyes', 'Paris FC', 'Ligue 1']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Ligue 1 2026']
 data_evento = 2026-08-22
 +++

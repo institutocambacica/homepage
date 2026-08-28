@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da 21ª rodada do Brasileirão na ge tv, em uma goleada encaminhada ainda no primeiro tempo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Vitoria', 'Palmeiras', 'Brasileirão']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Brasileirao 2026']
 data_evento = 2026-07-29
 +++

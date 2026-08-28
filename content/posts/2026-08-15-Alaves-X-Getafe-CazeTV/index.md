@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do jogo que abriu o Campeonato Espanhol na CazéTV, numa curva que se construiu quase toda antes do intervalo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Alaves', 'Getafe', 'LaLiga']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['LaLiga 2026']
 data_evento = 2026-08-15
 +++

@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da vitória da Chapecoense sobre o São Paulo na CazéTV, terceira maior medição do lote e a única acima de um milhão no canal"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Chapecoense', 'Sao Paulo', 'Brasileirão']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Brasileirao 2026']
 data_evento = 2026-08-23
 +++

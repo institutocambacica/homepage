@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo da Série B no Canal GOAT, único canal com uma só medição em todo o lote"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Canal-GOAT', 'Goias', 'Juventude', 'Serie-B']
 categories = ['Audiência']
+canais = ['Canal GOAT']
 campeonatos = ['Serie B 2026']
 data_evento = 2026-08-18
 +++

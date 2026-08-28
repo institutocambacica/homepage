@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da maior das quatro transmissões em som ambiente da CazéTV, a única em que os gols moveram a curva"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Toulouse', 'Lyon', 'Ligue 1']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Ligue 1 2026']
 data_evento = 2026-08-22
 +++

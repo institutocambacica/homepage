@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo da Liga MX que virou madrugada no Brasil, com os dois gols concentrados no primeiro tempo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Cruz Azul', 'Atlas', 'Campeonato Mexicano']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Campeonato Mexicano 2026']
 data_evento = 2026-08-22
 +++

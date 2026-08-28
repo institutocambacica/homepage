@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de uma goleada saudita no Canal GOAT, com um pico nos primeiros minutos que o resto do jogo não chegou perto de igualar"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Canal-GOAT', 'Al-Ahli', 'Abha', 'Saudi Pro League']
 categories = ['Audiência']
+canais = ['Canal GOAT']
 campeonatos = ['Saudi Pro League 2026']
 data_evento = 2026-08-22
 +++

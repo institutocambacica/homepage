@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do último amistoso de pré-temporada do Manchester United na SportyNet, numa tarde em que o Milan venceu de virada"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Manchester United', 'Milan', 'Amistoso']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Amistosos 2026']
 data_evento = 2026-08-15
 +++

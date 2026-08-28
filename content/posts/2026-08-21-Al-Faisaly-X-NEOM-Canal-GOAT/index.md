@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da menor transmissão do Canal GOAT no lote, com um pico no primeiro tempo que o resto do jogo não alcançou"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Canal-GOAT', 'Al-Faisaly', 'NEOM', 'Saudi Pro League']
 categories = ['Audiência']
+canais = ['Canal GOAT']
 campeonatos = ['Saudi Pro League 2026']
 data_evento = 2026-08-21
 +++

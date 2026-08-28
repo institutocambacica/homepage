@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da Copa Argentina na Xsports, numa medição em que o ponto mais alto veio depois do apito final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Xsports', 'Racing', 'Belgrano', 'Copa Argentina']
 categories = ['Audiência']
+canais = ['Xsports']
 campeonatos = ['Copa Argentina 2026']
 data_evento = 2026-08-19
 +++

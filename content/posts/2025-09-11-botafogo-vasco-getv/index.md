@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = 'Veja como ficou a audiência do jogo Botafogo X Vasco na GETV em 11/09/2025.'
 tags = ['YouTube', 'Analytics', 'GETV', 'Botafogo', 'Vasco', 'Copa do Brasil']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Copa do Brasil 2025']
 data_evento = 2025-09-11
 +++

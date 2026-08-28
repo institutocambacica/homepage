@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da ida das oitavas da Copa do Brasil na ge tv, em um clássico sem gols que mesmo assim passou de um milhão de aparelhos conectados"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Vasco', 'Fluminense', 'Copa do Brasil']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Copa do Brasil 2026']
 data_evento = 2026-08-01
 +++

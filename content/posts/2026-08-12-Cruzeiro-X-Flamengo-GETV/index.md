@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da ida das oitavas da Libertadores na ge tv, no empate do Mineirão que deixou o confronto aberto"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Cruzeiro', 'Flamengo', 'Libertadores']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Libertadores 2026']
 data_evento = 2026-08-12
 +++

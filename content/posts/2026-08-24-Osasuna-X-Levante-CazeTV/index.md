@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um 0 a 0 na CazéTV, numa curva que atingiu o seu máximo exatamente no apito do intervalo e nunca mais voltou àquele patamar"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Osasuna', 'Levante', 'LaLiga']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['LaLiga 2026']
 data_evento = 2026-08-24
 +++

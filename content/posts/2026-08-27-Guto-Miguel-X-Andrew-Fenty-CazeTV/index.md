@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de Guto Miguel X Andrew Fenty na CazéTV"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Guto Miguel', 'Andrew Fenty', 'ATP Challenger']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['ATP Challenger 2026']
 data_evento = 2026-08-27
 +++

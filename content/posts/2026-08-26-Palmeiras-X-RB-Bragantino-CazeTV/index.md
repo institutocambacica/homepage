@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de Palmeiras X RB Bragantino na CazéTV"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Palmeiras', 'RB Bragantino', 'Paulistão Feminino']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Paulistao Feminino 2026']
 data_evento = 2026-08-26
 +++

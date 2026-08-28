@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do duelo entre os dois recém-promovidos na CazéTV, numa medição em que o máximo mede troca de live e não interesse pela partida"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Malaga', 'Deportivo A Coruna', 'LaLiga']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['LaLiga 2026']
 data_evento = 2026-08-24
 +++

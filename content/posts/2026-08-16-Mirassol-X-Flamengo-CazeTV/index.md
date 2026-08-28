@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da goleada do Flamengo em Mirassol na CazéTV, na medição em que o máximo veio no apito do intervalo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Mirassol', 'Flamengo', 'Brasileirao']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Brasileirao 2026']
 data_evento = 2026-08-16
 +++

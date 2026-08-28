@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de Atlético Aldosivi X Independiente Rivadavia na Xsports"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Xsports', 'Atlético Aldosivi', 'Independiente Rivadavia', 'Copa Argentina']
 categories = ['Audiência']
+canais = ['Xsports']
 campeonatos = ['Copa Argentina 2026']
 data_evento = 2026-08-26
 +++

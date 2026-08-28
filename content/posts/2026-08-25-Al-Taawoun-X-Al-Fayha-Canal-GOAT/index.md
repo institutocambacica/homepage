@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um 0 a 0 saudita no Canal GOAT, medição em que o pico só apareceu aos 99 minutos de jogo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Canal-GOAT', 'Al-Taawoun', 'Al-Fayha', 'Saudi Pro League']
 categories = ['Audiência']
+canais = ['Canal GOAT']
 campeonatos = ['Saudi Pro League 2026']
 data_evento = 2026-08-25
 +++

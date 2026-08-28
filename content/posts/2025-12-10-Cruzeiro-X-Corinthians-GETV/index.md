@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da ida da semifinal da Copa do Brasil de 2025 na ge tv, em um Mineirão lotado"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Cruzeiro', 'Corinthians', 'Copa do Brasil']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Copa do Brasil 2025']
 data_evento = 2025-12-10
 +++

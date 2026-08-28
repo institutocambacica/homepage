@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a maior audiência de todo o lote na ge tv, com o pico chegando antes do intervalo e antes de qualquer gol"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Palmeiras', 'Vasco', 'Brasileirão']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Brasileirao 2026']
 data_evento = 2026-08-23
 +++

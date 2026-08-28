@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um 1 a 0 da LaLiga na CazéTV, com a audiência dobrando no segundo tempo e o pico no apito final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Real Betis', 'Real Sociedad', 'LaLiga']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['LaLiga 2026']
 data_evento = 2026-08-21
 +++

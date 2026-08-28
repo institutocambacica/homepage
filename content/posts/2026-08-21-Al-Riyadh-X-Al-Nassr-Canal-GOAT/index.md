@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do jogo com gol de Cristiano Ronaldo no Canal GOAT, a maior medição do canal em todo o lote"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Canal-GOAT', 'Al-Riyadh', 'Al-Nassr', 'Saudi Pro League']
 categories = ['Audiência']
+canais = ['Canal GOAT']
 campeonatos = ['Saudi Pro League 2026']
 data_evento = 2026-08-21
 +++

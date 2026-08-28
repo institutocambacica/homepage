@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de uma partida da Copa da Itália na SportyNet, com o vale de intervalo mais fundo de toda a rodada"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Lazio', 'Mantova', 'Copa da Italia']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Copa da Italia 2026']
 data_evento = 2026-08-16
 +++

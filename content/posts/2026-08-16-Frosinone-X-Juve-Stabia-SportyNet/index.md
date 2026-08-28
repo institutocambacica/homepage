@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a menor audiência de futebol que medimos neste lote, na rodada de abertura da Copa da Itália pela SportyNet"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Frosinone', 'Juve Stabia', 'Copa da Italia']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Copa da Italia 2026']
 data_evento = 2026-08-16
 +++

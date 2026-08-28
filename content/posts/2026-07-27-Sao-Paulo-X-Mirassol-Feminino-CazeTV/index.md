@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da 5ª rodada do Paulistão Feminino na CazéTV, a primeira medição de futebol feminino que publicamos"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Sao Paulo', 'Mirassol', 'Paulistão Feminino']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Paulistao Feminino 2026']
 data_evento = 2026-07-27
 +++

@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da vitória do Atlético-MG sobre o Grêmio na ge tv, numa curva que só atingiu o máximo nos minutos finais do jogo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Atletico-MG', 'Gremio', 'Brasileirao']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Brasileirao 2026']
 data_evento = 2026-08-16
 +++

@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo da Série C na SportyNet, que superou os dois amistosos europeus levados ao ar pelo mesmo canal no mesmo dia"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Santa Cruz', 'Maranhao', 'Serie-C']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Serie C 2026']
 data_evento = 2026-08-15
 +++

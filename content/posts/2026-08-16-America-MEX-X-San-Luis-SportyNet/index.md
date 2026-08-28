@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do Campeonato Mexicano na SportyNet, numa curva que só parou de subir no apito final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'America-MEX', 'San Luis', 'Campeonato Mexicano']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Campeonato Mexicano 2026']
 data_evento = 2026-08-16
 +++

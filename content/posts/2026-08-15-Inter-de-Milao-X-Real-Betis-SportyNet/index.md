@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do amistoso entre Inter de Milão e Real Bétis na SportyNet, numa medição que atingiu o máximo ainda no primeiro tempo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Inter de Milao', 'Real Betis', 'Amistoso']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Amistosos 2026']
 data_evento = 2026-08-15
 +++

@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da ida das oitavas da Sul-Americana na SBT Sports, no empate do São Paulo com o Bolívar na altitude de La Paz"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SBT-Sports', 'Bolivar', 'Sao Paulo', 'Sul-Americana']
 categories = ['Audiência']
+canais = ['SBT Sports']
 campeonatos = ['Sul-Americana 2026']
 data_evento = 2026-08-11
 +++

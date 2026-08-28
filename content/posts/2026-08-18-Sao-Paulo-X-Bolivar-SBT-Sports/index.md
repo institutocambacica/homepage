@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da volta das oitavas da Sul-Americana na SBT Sports, numa medição que começou com a partida já em andamento"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SBT-Sports', 'Sao Paulo', 'Bolivar', 'Sul-Americana']
 categories = ['Audiência']
+canais = ['SBT Sports']
 campeonatos = ['Sul-Americana 2026']
 data_evento = 2026-08-18
 +++

@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = 'Veja como ficou a audiência da partida entre Giants e Commanders no último domingo.'
 tags = ['YouTube', 'Analytics', 'GETV', 'NFL']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['NFL 2025']
 data_evento = 2025-09-07
 +++

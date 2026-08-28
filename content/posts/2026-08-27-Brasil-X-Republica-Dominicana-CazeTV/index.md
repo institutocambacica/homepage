@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de Brasil X República Dominicana na CazéTV"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Brasil', 'República Dominicana', 'Eliminatórias da Copa do Mundo de Basquete']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Eliminatorias da Copa do Mundo de Basquete 2026']
 data_evento = 2026-08-27
 +++

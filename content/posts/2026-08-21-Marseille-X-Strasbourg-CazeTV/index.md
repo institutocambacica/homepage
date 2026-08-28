@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da abertura da Ligue 1 na CazéTV, numa medição que se encerrou no mesmo minuto do apito final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Marseille', 'Strasbourg', 'Ligue 1']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Ligue 1 2026']
 data_evento = 2026-08-21
 +++

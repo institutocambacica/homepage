@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da final da Libertadores de 2025 na ge tv e na CazéTV, no dia do tetracampeonato do Flamengo em Lima"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'CazeTV', 'Palmeiras', 'Flamengo', 'Libertadores']
 categories = ['Audiência']
+canais = ['GETV', 'CazeTV']
 campeonatos = ['Libertadores 2025']
 data_evento = 2025-11-29
 +++

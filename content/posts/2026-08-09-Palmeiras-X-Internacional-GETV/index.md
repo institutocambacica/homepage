@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do empate sem gols entre Palmeiras e Internacional na ge tv, numa curva que subiu do apito inicial ao último registro coletado"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Palmeiras', 'Internacional', 'Brasileirao']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Brasileirao 2026']
 data_evento = 2026-08-09
 +++

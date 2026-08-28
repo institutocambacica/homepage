@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da ida da final da Copa do Brasil de 2025 na ge tv, em um jogo sem gols na Neo Química Arena"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Corinthians', 'Vasco', 'Copa do Brasil']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Copa do Brasil 2025']
 data_evento = 2025-12-17
 +++

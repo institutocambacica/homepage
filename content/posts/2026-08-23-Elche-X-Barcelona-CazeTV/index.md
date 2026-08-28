@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da goleada do Barcelona na CazéTV, com a curva subindo a cada gol do segundo tempo sem voltar ao pico do primeiro"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Elche', 'Barcelona', 'LaLiga']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['LaLiga 2026']
 data_evento = 2026-08-23
 +++

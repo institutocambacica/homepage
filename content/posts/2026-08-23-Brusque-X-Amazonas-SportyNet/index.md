@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um empate da Série C na SportyNet, com a curva triplicando na última meia hora de jogo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Brusque', 'Amazonas', 'Serie-C']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Serie C 2026']
 data_evento = 2026-08-23
 +++

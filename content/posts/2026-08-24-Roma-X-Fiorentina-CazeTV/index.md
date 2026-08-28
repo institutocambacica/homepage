@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da estreia da Serie A na CazéTV, a maior das cinco medições do dia, com o máximo cravado no apito do intervalo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Roma', 'Fiorentina', 'Serie A Italiana']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Serie A Italiana 2026']
 data_evento = 2026-08-24
 +++

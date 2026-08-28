@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da maior transmissão da SportyNet no lote, uma partida da Série C que reuniu mais gente que muitos jogos de primeira divisão europeia"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Santa Cruz', 'Caxias', 'Serie-C']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Serie C 2026']
 data_evento = 2026-08-22
 +++

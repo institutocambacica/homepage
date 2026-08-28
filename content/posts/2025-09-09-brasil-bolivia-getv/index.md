@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = 'Veja como ficou a audiência do jogo Bolívia 1 X O Brasil na GETV em 09/09/2025.'
 tags = ['YouTube', 'Analytics', 'GETV', 'Seleção Brasileira', 'Eliminatórias']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Eliminatorias 2025']
 data_evento = 2025-09-09
 +++

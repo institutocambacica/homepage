@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Neste post vamos informar a audiência obtida pelo canal SBT Sports durante a transmissão alternativa entre Lanús X Fluminense, em 16/09/2025."
 tags = ['YouTube', 'Analytics', 'Audiência', 'SBT Sports', 'Lanus', 'Fluminense', 'Sulamericana']
 categories = ['Audiência']
+canais = ['SBT Sports']
 campeonatos = ['Sul-Americana 2025']
 data_evento = 2025-09-16
 +++

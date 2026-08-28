@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da etapa de Lausanne da Diamond League na Xsports, a menor medição de todo o lote"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Xsports', 'Atletismo', 'Lausanne', 'Diamond League']
 categories = ['Audiência']
+canais = ['Xsports']
 campeonatos = ['Diamond League 2026']
 data_evento = 2026-08-21
 +++

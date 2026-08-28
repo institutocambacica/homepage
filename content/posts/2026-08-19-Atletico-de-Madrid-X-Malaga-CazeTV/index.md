@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a maior audiência da rodada de estreia do Campeonato Espanhol na CazéTV, numa partida cujo apito inicial a própria curva ajudou a datar"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Atletico de Madrid', 'Malaga', 'LaLiga']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['LaLiga 2026']
 data_evento = 2026-08-19
 +++

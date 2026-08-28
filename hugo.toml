@@ -17,6 +17,10 @@ theme = 'typo'
     url = '/campeonatos/'
 
   [[params.menu]]
+    name = 'canais'
+    url = '/canais/'
+
+  [[params.menu]]
     name = 'sobre'
     url = '/sobre/'
   
@@ -26,9 +30,9 @@ theme = 'typo'
     newTab = true
 
 [module]
-  # layouts/campeonatos/{taxonomy,term}.html e layouts/index.json usam o sistema
-  # de layouts reescrito na 0.146. Num binário anterior o site construiria, mas
-  # com as páginas erradas — melhor falhar na cara.
+  # Os layouts de taxonomia e layouts/index.json usam o sistema reescrito na
+  # 0.146. Num binário anterior o site construiria, mas com as páginas erradas
+  # — melhor falhar na cara.
   [module.hugoVersion]
     min = '0.146.0'
 
@@ -39,6 +43,9 @@ theme = 'typo'
   # Os termos são ASCII ('Brasileirao 2026'); o nome bonito e acentuado fica no
   # title de content/campeonatos/<slug>/_index.md. Ver layouts/campeonatos/.
   campeonato = 'campeonatos'
+  # Um post pode pertencer a mais de um canal quando a transmissão foi conjunta.
+  # O nome de exibição fica no title de content/canais/<slug>/_index.md.
+  canal = 'canais'
 
 [outputs]
   # HTML precisa vir primeiro: é ele que define o permalink canônico da home.

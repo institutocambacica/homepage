@@ -20,9 +20,9 @@ html.search-open {
   overflow: hidden;
 }
 
-/* ---------- Índice de campeonatos ---------- */
+/* ---------- Índices de campeonatos e canais ---------- */
 
-/* Quantidade de medições ao lado de cada campeonato em /campeonatos/.
+/* Quantidade de posts ao lado de cada termo em /campeonatos/ e /canais/.
    As linhas em si reaproveitam .tag-line/.tag-title do tema. */
 .tag-count {
   font-family: var(--font-mono);

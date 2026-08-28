@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do retorno do Racing de Santander à elite espanhola na CazéTV, num segundo tempo sem gols que mesmo assim fez a curva subir"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Racing Club', 'Villarreal', 'LaLiga']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['LaLiga 2026']
 data_evento = 2026-08-16
 +++

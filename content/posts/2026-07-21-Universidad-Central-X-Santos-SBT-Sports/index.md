@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da ida do playoff da Copa Sul-Americana no SBT Sports, com goleada do Santos na Venezuela"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SBT Sports', 'Universidad Central', 'Santos', 'Sul-Americana']
 categories = ['Audiência']
+canais = ['SBT Sports']
 campeonatos = ['Sul-Americana 2026']
 data_evento = 2026-07-21
 +++

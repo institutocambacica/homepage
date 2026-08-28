@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da menor transmissão da Saudi Pro League no lote, num segundo tempo que terminou exatamente onde começou"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Canal-GOAT', 'Al-Kholood', 'Al-Taawoun', 'Saudi Pro League']
 categories = ['Audiência']
+canais = ['Canal GOAT']
 campeonatos = ['Saudi Pro League 2026']
 data_evento = 2026-08-22
 +++

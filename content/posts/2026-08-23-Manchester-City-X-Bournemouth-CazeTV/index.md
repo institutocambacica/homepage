@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da estreia da Premier League na CazéTV, com uma virada nos últimos sete minutos levando a curva ao pico"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Manchester City', 'Bournemouth', 'Premier League']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Premier League 2026']
 data_evento = 2026-08-23
 +++

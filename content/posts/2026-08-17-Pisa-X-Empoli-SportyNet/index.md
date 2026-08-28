@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a maior audiência da rodada de abertura da Copa da Itália na SportyNet, registrada com a cadência de coleta reduzida"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Pisa', 'Empoli', 'Copa da Italia']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Copa da Italia 2026']
 data_evento = 2026-08-17
 +++

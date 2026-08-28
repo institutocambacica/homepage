@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo cujo máximo ficou no apagar do primeiro tempo no Canal GOAT, com a etapa final inteira abaixo do que a inicial já tinha alcançado"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Canal-GOAT', 'NEOM', 'Al-Qadsiah', 'Saudi Pro League']
 categories = ['Audiência']
+canais = ['Canal GOAT']
 campeonatos = ['Saudi Pro League 2026']
 data_evento = 2026-08-24
 +++

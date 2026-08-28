@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Aviso sobre a medição de Frosinone X Juventus na SportyNet, que ficou sem nenhuma amostra coletada"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Frosinone', 'Juventus', 'Serie A Italiana']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Serie A Italiana 2026']
 data_evento = 2026-08-23
 +++

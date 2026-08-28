@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do jogo que fechou a 23ª rodada da Série B na SportyNet, numa medição que terminou no mesmo minuto do apito final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Novorizontino', 'America-MG', 'Serie-B']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Serie B 2026']
 data_evento = 2026-08-20
 +++

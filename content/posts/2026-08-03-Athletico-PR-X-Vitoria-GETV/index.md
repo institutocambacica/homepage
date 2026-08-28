@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da ida das oitavas da Copa do Brasil na ge tv, na única medição desta série em que o pico ficou no primeiro tempo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Athletico-PR', 'Vitoria', 'Copa do Brasil']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Copa do Brasil 2026']
 data_evento = 2026-08-03
 +++

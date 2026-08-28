@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = 'Veja quem ganhou na audiência no minuto a minuto no primeiro embate entre GETV e CazéTV.'
 tags = ['YouTube', 'Analytics', 'GETV', 'CazeTV', 'NFL']
 categories = ['Audiência']
+canais = ['GETV', 'CazeTV']
 campeonatos = ['NFL 2025']
 data_evento = 2025-09-05
 +++

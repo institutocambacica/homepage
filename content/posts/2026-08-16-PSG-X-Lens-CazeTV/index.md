@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da final da Supercopa da França na CazéTV, no título inédito que o Lens conquistou em casa"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'PSG', 'Lens', 'Supercopa da Franca']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Supercopa da Franca 2026']
 data_evento = 2026-08-16
 +++

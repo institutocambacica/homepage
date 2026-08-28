@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja a maior audiência que já medimos no Canal GOAT, numa virada do Al-Nassr em que o pico ficou todo no primeiro tempo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Canal-GOAT', 'Al-Ettifaq', 'Al-Nassr', 'Saudi Pro League']
 categories = ['Audiência']
+canais = ['Canal GOAT']
 campeonatos = ['Saudi Pro League 2026']
 data_evento = 2026-08-25
 +++

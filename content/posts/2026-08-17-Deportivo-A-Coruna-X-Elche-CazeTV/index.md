@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do retorno do Deportivo à elite espanhola na CazéTV, numa curva que só encontrou o seu máximo no apito final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Deportivo A Coruna', 'Elche', 'LaLiga']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['LaLiga 2026']
 data_evento = 2026-08-17
 +++

@@ -4,7 +4,7 @@
   Chaves curtas de propósito — são 75+ registros e o payload é baixado pelo
   leitor assim que ele foca o campo de busca:
     t = título        s = resumo        g = tags
-    c = campeonato    e = data do evento (AAAA-MM-DD, ordenação)
+    c = campeonato    a = canais       e = data do evento (AAAA-MM-DD, ordenação)
     d = data do evento já formatada    u = URL relativa
 
   `d` vem formatada daqui, e não do JavaScript, de propósito: o time.Format do
@@ -33,6 +33,7 @@
       "s" (.Params.summary | default "")
       "g" (.Params.tags | default slice)
       "c" $campeonato
+      "a" (.Params.canais | default slice)
       "e" $iso
       "d" $exibicao
       "u" .RelPermalink

@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da última rodada da primeira fase do Brasileirão Feminino na ge tv, com pico depois do intervalo e sem gol para explicá-lo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Corinthians', 'Internacional', 'Brasileirão Feminino']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Brasileirao Feminino 2026']
 data_evento = 2026-08-22
 +++

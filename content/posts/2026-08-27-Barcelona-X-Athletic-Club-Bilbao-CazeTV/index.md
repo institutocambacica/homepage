@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de Barcelona X Athletic Club Bilbao na CazéTV"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Barcelona', 'Athletic Club Bilbao', 'LaLiga']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['LaLiga 2026']
 data_evento = 2026-08-27
 +++

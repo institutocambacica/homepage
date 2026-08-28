@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo da Série B na SportyNet, num segundo tempo sem gols que ainda assim levou a curva ao máximo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Fortaleza', 'Sao Bernardo', 'Serie-B']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Serie B 2026']
 data_evento = 2026-08-19
 +++

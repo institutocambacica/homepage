@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja a única medição do lote que terminou antes de a bola rolar: 44 minutos de pré-transmissão da CazéTV, e nenhum minuto de jogo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Atletico de Madrid', 'Villarreal', 'LaLiga']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['LaLiga 2026']
 data_evento = 2026-08-23
 +++

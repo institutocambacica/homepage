@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do amistoso entre Tottenham e Hoffenheim na SportyNet, numa medição em que o ponto mais alto veio antes do intervalo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Tottenham', 'Hoffenheim', 'Amistoso']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Amistosos 2026']
 data_evento = 2026-08-15
 +++

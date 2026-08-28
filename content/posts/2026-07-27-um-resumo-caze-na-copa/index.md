@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Um resumo dos números obtidos pela CazéTV durante a Copa do Mundo de 2026"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazéTV', 'Copa do Mundo']
 categories = ['Documento']
+canais = ['CazeTV']
 campeonatos = ['Copa do Mundo 2026']
 data_evento = 2026-07-27
 +++

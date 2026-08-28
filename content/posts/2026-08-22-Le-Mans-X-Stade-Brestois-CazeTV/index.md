@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da menor transmissão da CazéTV no lote, um dos quatro jogos em som ambiente que a Ligue 1 exibiu em paralelo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Le Mans', 'Stade Brestois', 'Ligue 1']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Ligue 1 2026']
 data_evento = 2026-08-22
 +++

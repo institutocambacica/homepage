@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da visita do clube de expansão da NWSL a Portland no Canal GOAT, com pico no minuto do apito final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Canal-GOAT', 'Portland Thorns', 'Denver Summit', 'NWSL']
 categories = ['Audiência']
+canais = ['Canal GOAT']
 campeonatos = ['NWSL 2026']
 data_evento = 2026-08-22
 +++

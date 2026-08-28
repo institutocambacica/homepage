@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da 20ª rodada do Brasileirão na CazéTV, em um empate que manteve o Vasco na zona de rebaixamento"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Vasco', 'Mirassol', 'Brasileirão']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Brasileirao 2026']
 data_evento = 2026-07-25
 +++

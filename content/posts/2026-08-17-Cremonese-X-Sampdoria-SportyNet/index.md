@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de uma transmissão da Copa da Itália que já começou formada e se manteve estável do apito inicial ao final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Cremonese', 'Sampdoria', 'Copa da Italia']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Copa da Italia 2026']
 data_evento = 2026-08-17
 +++

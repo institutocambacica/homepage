@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de Anderlecht X Kairat Almaty na Xsports"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Xsports', 'Anderlecht', 'Kairat Almaty', 'Europa League']
 categories = ['Audiência']
+canais = ['Xsports']
 campeonatos = ['Europa League 2026']
 data_evento = 2026-08-27
 +++

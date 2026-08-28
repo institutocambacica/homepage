@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja a medição mais atípica do lote na CazéTV: o pico aconteceu dezesseis minutos antes do apito inicial, e a curva só caiu daí em diante"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Getafe', 'Racing Club', 'LaLiga']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['LaLiga 2026']
 data_evento = 2026-08-23
 +++

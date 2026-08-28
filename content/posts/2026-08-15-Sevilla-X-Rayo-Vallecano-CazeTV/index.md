@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da estreia do Sevilla na temporada espanhola na CazéTV, na única medição deste lote que não precisou de nenhum corte de janela"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Sevilla', 'Rayo Vallecano', 'LaLiga']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['LaLiga 2026']
 data_evento = 2026-08-15
 +++

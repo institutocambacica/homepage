@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do Derby das Américas na ge tv e na CazéTV, com a virada de liderança entre os dois canais ainda no primeiro tempo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'CazeTV', 'Flamengo', 'Cruz Azul', 'Mundial de Clubes']
 categories = ['Audiência']
+canais = ['GETV', 'CazeTV']
 campeonatos = ['Mundial de Clubes 2025']
 data_evento = 2025-12-10
 +++

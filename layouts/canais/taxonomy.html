@@ -1,0 +1,26 @@
+{{/* Índice /canais/ — canais medidos, em ordem alfabética. */}}
+
+{{ define "main" }}
+
+<div class="list-container">
+
+    {{ partial "breadcrumbs.html" . }}
+
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+
+    {{ partial "validate-canais.html" . }}
+
+    {{ range sort .Pages "Title" }}
+    <div class="tag-line">
+        <div>
+            <p class="tag-title">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <span class="tag-count">{{ len .Pages }}</span>
+            </p>
+        </div>
+    </div>
+    {{ end }}
+
+</div>
+{{ end }}

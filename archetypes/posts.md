@@ -6,6 +6,10 @@ author = 'Instituto Cambacica de Audiência'
 summary = ''
 tags = ['YouTube', 'Analytics', 'Audiência']
 categories = ['Audiência']
+# Termos canônicos dos canais; transmissões conjuntas aceitam mais de um.
+# Precisa existir content/canais/<slug>/_index.md.
+# Para um post institucional sem canal, troque por: sem_canal = true
+canais = ['']
 # Termo ASCII, sem acento, no formato `Nome AAAA` — ex.: 'Libertadores 2026'.
 # Precisa existir content/campeonatos/<slug>/_index.md, senão o build falha.
 # Se o post não pertence a campeonato nenhum, troque por: sem_campeonato = true

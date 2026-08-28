@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de Al-Diriyah X Al-Kholood no Canal GOAT"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Canal-GOAT', 'Al-Diriyah', 'Al-Kholood', 'Saudi Pro League']
 categories = ['Audiência']
+canais = ['Canal GOAT']
 campeonatos = ['Saudi Pro League 2026']
 data_evento = 2026-08-26
 +++

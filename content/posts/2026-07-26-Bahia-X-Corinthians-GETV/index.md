@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da 20ª rodada do Brasileirão na ge tv, em um jogo marcado por confusão generalizada no intervalo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Bahia', 'Corinthians', 'Brasileirão']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Brasileirao 2026']
 data_evento = 2026-07-26
 +++

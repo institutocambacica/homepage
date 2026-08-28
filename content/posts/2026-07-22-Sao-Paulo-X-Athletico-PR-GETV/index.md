@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da 19ª rodada do Brasileirão na ge tv, em um jogo virado pelo Athletico-PR no início do segundo tempo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Sao Paulo', 'Athletico-PR', 'Brasileirão']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Brasileirao 2026']
 data_evento = 2026-07-22
 +++

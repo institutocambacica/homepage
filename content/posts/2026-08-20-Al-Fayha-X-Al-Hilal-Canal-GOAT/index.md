@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da segunda rodada do Campeonato Saudita no Canal GOAT, numa curva que alcançou o topo antes do primeiro gol e não voltou mais a ele"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Canal-GOAT', 'Al-Fayha', 'Al-Hilal', 'Saudi Pro League']
 categories = ['Audiência']
+canais = ['Canal GOAT']
 campeonatos = ['Saudi Pro League 2026']
 data_evento = 2026-08-20
 +++

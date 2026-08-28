@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da vitória do Criciúma sobre o Goiás na SportyNet, numa medição em que o máximo veio depois do apito final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Criciuma', 'Goias', 'Serie-B']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Serie B 2026']
 data_evento = 2026-08-15
 +++

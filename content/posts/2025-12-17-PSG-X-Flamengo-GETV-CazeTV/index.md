@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da final da Copa Intercontinental da FIFA de 2025 na ge tv e na CazéTV, decidida nos pênaltis"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'CazeTV', 'PSG', 'Flamengo', 'Mundial de Clubes']
 categories = ['Audiência']
+canais = ['GETV', 'CazeTV']
 campeonatos = ['Mundial de Clubes 2025']
 data_evento = 2025-12-17
 +++

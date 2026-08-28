@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo sem gols do Brasileirão na CazéTV, com o pico registrado logo após o apito final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Botafogo', 'Vitoria', 'Brasileirão']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Brasileirao 2026']
 data_evento = 2026-07-23
 +++

@@ -1,0 +1,17 @@
+{{/* Um canal: /canais/<slug>/. Posts mais recentes pelo dia do evento. */}}
+
+{{ define "main" }}
+
+<div class="list-container">
+
+    {{ partial "breadcrumbs.html" . }}
+
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+
+    {{ range sort .Pages "Params.data_evento" "desc" }}
+    {{ partial "post-entry-evento.html" . }}
+    {{ end }}
+
+</div>
+{{ end }}

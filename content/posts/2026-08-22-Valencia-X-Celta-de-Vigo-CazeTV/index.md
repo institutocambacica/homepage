@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Aviso sobre a medição de Valencia X Celta de Vigo na CazéTV, que ficou sem nenhuma amostra coletada"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Valencia', 'Celta de Vigo', 'LaLiga']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['LaLiga 2026']
 data_evento = 2026-08-22
 +++

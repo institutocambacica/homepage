@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da estreia da Série B italiana na SportyNet, numa virada que dobrou a audiência do segundo tempo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Vicenza', 'Catanzaro', 'Serie B Italiana']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Serie B Italiana 2026']
 data_evento = 2026-08-21
 +++

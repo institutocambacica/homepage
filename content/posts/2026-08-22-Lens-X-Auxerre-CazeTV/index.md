@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do jogo de sete gols da Ligue 1 na CazéTV, em que a audiência caiu justamente enquanto o placar se movia"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Lens', 'Auxerre', 'Ligue 1']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Ligue 1 2026']
 data_evento = 2026-08-22
 +++

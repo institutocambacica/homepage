@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da volta das oitavas da Copa do Brasil na ge tv, na goleada que virou o confronto no Barradão"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Vitoria', 'Athletico-PR', 'Copa do Brasil']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Copa do Brasil 2026']
 data_evento = 2026-08-06
 +++

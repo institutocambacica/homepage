@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da premiação da Chuteira de Ouro na Xsports, a menor de todas as medições deste lote"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Xsports', 'Premiacao']
 categories = ['Audiência']
+canais = ['Xsports']
 campeonatos = ['Premiacoes 2026']
 data_evento = 2026-08-19
 +++

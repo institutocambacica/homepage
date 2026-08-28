@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da vitória do Coritiba sobre a Chapecoense na CazéTV, numa medição em que a curva só reagiu depois do segundo gol"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Coritiba', 'Chapecoense', 'Brasileirao']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Brasileirao 2026']
 data_evento = 2026-08-08
 +++

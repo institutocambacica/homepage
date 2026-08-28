@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de Palmeiras X Santos na ge tv"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Palmeiras', 'Santos', 'Copa do Brasil']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Copa do Brasil 2026']
 data_evento = 2026-08-26
 +++

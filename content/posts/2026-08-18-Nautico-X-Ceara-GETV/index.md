@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo da Série B na ge tv, num primeiro tempo esticado que empurrou o vale do intervalo para bem depois do usual"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Nautico', 'Ceara', 'Serie-B']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Serie B 2026']
 data_evento = 2026-08-18
 +++

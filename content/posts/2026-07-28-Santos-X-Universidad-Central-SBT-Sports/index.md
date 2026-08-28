@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do jogo de volta do playoff da Sul-Americana no SBT Sports, em uma virada que classificou o Santos"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SBT Sports', 'Santos', 'Universidad Central', 'Sul-Americana']
 categories = ['Audiência']
+canais = ['SBT Sports']
 campeonatos = ['Sul-Americana 2026']
 data_evento = 2026-07-28
 +++

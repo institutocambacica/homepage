@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do amistoso comemorativo da Veltins-Arena na SportyNet, a maior medição do canal em todo o lote"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Real Madrid', 'Schalke 04', 'Amistoso']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Amistosos 2026']
 data_evento = 2026-08-16
 +++

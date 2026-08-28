@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um 1 a 0 da Ligue 1 na CazéTV, com o segundo tempo crescendo 62% num jogo sem gols na etapa"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Le Havre', 'Monaco', 'Ligue 1']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Ligue 1 2026']
 data_evento = 2026-08-23
 +++

@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo da LaLiga na CazéTV, numa curva que subiu até o apito final e teve o ponto mais alto no último minuto de jogo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Rayo Vallecano', 'Alaves', 'LaLiga']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['LaLiga 2026']
 data_evento = 2026-08-20
 +++

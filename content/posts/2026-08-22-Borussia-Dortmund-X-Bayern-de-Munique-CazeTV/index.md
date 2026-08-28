@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da final da Supercopa da Alemanha na CazéTV, em que o intervalo levou quase metade do público de uma vez"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Borussia Dortmund', 'Bayern de Munique', 'Supercopa da Alemanha']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Supercopa da Alemanha 2026']
 data_evento = 2026-08-22
 +++

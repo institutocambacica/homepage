@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da segunda semifinal da Copa do Mundo de 2026, decidida nos acréscimos"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Inglaterra', 'Argentina', 'Copa do Mundo']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Copa do Mundo 2026']
 data_evento = 2026-07-15
 +++

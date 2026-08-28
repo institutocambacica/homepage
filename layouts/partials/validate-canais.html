@@ -1,0 +1,42 @@
+{{/* Validação de build da taxonomia `canais`.
+
+     Canais são dados estruturados separados das tags, que têm variantes como
+     CazeTV/CazéTV e SBT-Sports/SBT Sports. Esta validação impede que uma nova
+     variante crie outro arquivo ou colida com um slug existente.
+*/}}
+
+{{ $page := . }}
+{{ $permitidos := slice "Canal GOAT" "CazeTV" "GETV" "SBT Sports" "SportyNet" "Xsports" }}
+
+{{/* Todo post pertence a pelo menos um canal, ou opta explicitamente por fora. */}}
+{{ range $post := where site.RegularPages "Section" "posts" }}
+  {{ $termos := .Params.canais | default slice }}
+  {{ if .Params.sem_canal }}
+    {{ if gt (len $termos) 0 }}
+      {{ errorf "canais: %s tem sem_canal = true e também canais = %v — escolha um dos dois." .File.Path $termos }}
+    {{ end }}
+  {{ else if lt (len $termos) 1 }}
+    {{ errorf "canais: %s não tem nenhum termo em `canais`. Se o post realmente não pertence a um canal, marque sem_canal = true." .File.Path }}
+  {{ end }}
+
+  {{ if ne (len $termos) (len ($termos | collections.Uniq)) }}
+    {{ errorf "canais: %s repete um canal em %v." .File.Path $termos }}
+  {{ end }}
+
+  {{ range $valor := $termos }}
+    {{ if not (in $permitidos $valor) }}
+      {{ errorf "canais: %s usa o termo não canônico %q. Use um destes valores: %v." $post.File.Path $valor $permitidos }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* Termos precisam usar a chave canônica e ter um _index.md próprio. */}}
+{{ range $termo := $page.Pages }}
+  {{ $valor := $termo.Data.Term }}
+  {{ if not (in $permitidos $valor) }}
+    {{ errorf "canais: termo %q não é canônico. Use um destes valores: %v." $valor $permitidos }}
+  {{ end }}
+  {{ if not $termo.File }}
+    {{ errorf "canais: o termo %q não tem content/canais/<slug>/_index.md com o nome de exibição." $valor }}
+  {{ end }}
+{{ end }}

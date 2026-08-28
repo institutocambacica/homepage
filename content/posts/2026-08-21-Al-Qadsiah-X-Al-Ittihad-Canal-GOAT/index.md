@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo decidido nos acréscimos do primeiro tempo no Canal GOAT, com a curva crescendo enquanto o vencedor jogava com um a menos"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Canal-GOAT', 'Al-Qadsiah', 'Al-Ittihad', 'Saudi Pro League']
 categories = ['Audiência']
+canais = ['Canal GOAT']
 campeonatos = ['Saudi Pro League 2026']
 data_evento = 2026-08-21
 +++

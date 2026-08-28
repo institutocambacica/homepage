@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da primeira semifinal da Copa do Mundo de 2026, transmitida pela CazéTV"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'França', 'Espanha', 'Copa do Mundo']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Copa do Mundo 2026']
 data_evento = 2026-07-14
 +++

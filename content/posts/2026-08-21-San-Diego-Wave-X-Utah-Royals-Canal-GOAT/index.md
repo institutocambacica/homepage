@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo da NWSL no Canal GOAT, numa curva pequena demais para desenhar o vale do intervalo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Canal-GOAT', 'San Diego Wave', 'Utah Royals', 'NWSL']
 categories = ['Audiência']
+canais = ['Canal GOAT']
 campeonatos = ['NWSL 2026']
 data_evento = 2026-08-21
 +++

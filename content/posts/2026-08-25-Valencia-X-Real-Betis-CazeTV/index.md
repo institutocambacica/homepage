@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja a maior medição do dia: um jogo atrasado da 1ª rodada de LaLiga na CazéTV, com a audiência subindo até o apito final"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Valencia', 'Real Betis', 'LaLiga']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['LaLiga 2026']
 data_evento = 2026-08-25
 +++

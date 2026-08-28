@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência na última partida do Brasileirão transmitida pela CazéTV"
 tags = ['YouTube', 'Analytics', 'CazeTV', 'Fluminense', 'Corinthians', 'Brasileirão']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Brasileirao 2025']
 data_evento = 2025-09-13
 +++

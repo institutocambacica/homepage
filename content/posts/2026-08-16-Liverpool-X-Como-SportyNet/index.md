@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do amistoso de Anfield na SportyNet, numa curva que subiu de repente antes do apito inicial e caiu durante todo o segundo tempo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Liverpool', 'Como', 'Amistoso']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Amistosos 2026']
 data_evento = 2026-08-16
 +++

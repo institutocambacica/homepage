@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um amistoso internacional na Xsports, numa curva que não chegou a desenhar o vale do intervalo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'Xsports', 'Borussia Monchengladbach', 'Aston Villa', 'Amistoso']
 categories = ['Audiência']
+canais = ['Xsports']
 campeonatos = ['Amistosos 2026']
 data_evento = 2026-08-15
 +++

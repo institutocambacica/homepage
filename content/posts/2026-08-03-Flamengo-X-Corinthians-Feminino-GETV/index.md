@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da 14ª rodada do Brasileirão Feminino na ge tv, na vitória que devolveu a liderança ao Corinthians"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Flamengo', 'Corinthians', 'Brasileirão Feminino']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Brasileirao Feminino 2026']
 data_evento = 2026-08-03
 +++

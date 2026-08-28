@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência de um jogo de pré-temporada da NFL na ge tv, a curva mais plana de todo o lote"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Las Vegas Raiders', 'Houston Texans', 'NFL']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['NFL 2026']
 data_evento = 2026-08-20
 +++

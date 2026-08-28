@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência do confronto entre líder e quarto colocado da Série B na SportyNet, com pico logo após o gol que liquidou o jogo"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Criciuma', 'Fortaleza', 'Serie-B']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Serie B 2026']
 data_evento = 2026-08-23
 +++

@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da primeira rodada da Copa da Itália na SportyNet, numa medição em que o intervalo desenhou o vale mais fundo da curva"
 tags = ['YouTube', 'Analytics', 'Audiência', 'SportyNet', 'Genoa', 'Ascoli', 'Copa da Italia']
 categories = ['Audiência']
+canais = ['SportyNet']
 campeonatos = ['Copa da Italia 2026']
 data_evento = 2026-08-16
 +++

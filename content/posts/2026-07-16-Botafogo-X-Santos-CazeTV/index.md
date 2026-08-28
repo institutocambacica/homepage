@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da 19ª rodada do Brasileirão na CazéTV, um dia depois das semifinais da Copa"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Botafogo', 'Santos', 'Brasileirão']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['Brasileirao 2026']
 data_evento = 2026-07-16
 +++

@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a menor audiência da rodada de estreia do Campeonato Espanhol na CazéTV, numa curva que desce do apito inicial ao fim da medição"
 tags = ['YouTube', 'Analytics', 'Audiência', 'CazeTV', 'Espanyol', 'Levante', 'LaLiga']
 categories = ['Audiência']
+canais = ['CazeTV']
 campeonatos = ['LaLiga 2026']
 data_evento = 2026-08-16
 +++

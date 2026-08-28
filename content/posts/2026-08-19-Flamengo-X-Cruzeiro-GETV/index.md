@@ -6,6 +6,7 @@ author = 'Instituto Cambacica de Audiência'
 summary = "Veja como foi a audiência da volta das oitavas da Libertadores na ge tv, na noite em que o Flamengo eliminou o Cruzeiro no Maracanã"
 tags = ['YouTube', 'Analytics', 'Audiência', 'GETV', 'Flamengo', 'Cruzeiro', 'Libertadores']
 categories = ['Audiência']
+canais = ['GETV']
 campeonatos = ['Libertadores 2026']
 data_evento = 2026-08-19
 +++

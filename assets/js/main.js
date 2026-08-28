@@ -85,12 +85,13 @@
         .then(function (data) {
           records = data.map(function (d) {
             var tags = (d.g || []).join(' ');
+            var canais = (d.a || []).join(' ');
             return {
               raw: d,
               t: normalize(d.t || ''),
               s: normalize(d.s || ''),
-              // campeonato e tags compartilham o mesmo peso
-              k: normalize((d.c || '') + ' ' + tags)
+              // campeonato, canais e tags compartilham o mesmo peso
+              k: normalize((d.c || '') + ' ' + canais + ' ' + tags)
             };
           });
           return records;
