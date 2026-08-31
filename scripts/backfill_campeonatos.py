@@ -73,6 +73,15 @@ ALIASES = {
     "Europa League": "Europa League",
     "Eliminatórias da Copa do Mundo de Basquete": "Eliminatorias da Copa do Mundo de Basquete",
     "ATP Challenger": "ATP Challenger",
+    # Competições que entraram com o lote de 28 a 30/08/2026.
+    "Bundesliga": "Bundesliga",
+    "Bundesliga 2": "Bundesliga 2",
+    "Campeonato Português": "Campeonato Portugues",
+    "Copa Paulista": "Copa Paulista",
+    "Grand Slam de Judô": "Grand Slam de Judo",
+    "Mundial de Canoagem de Velocidade": "Mundial de Canoagem de Velocidade",
+    "Rugby": "Rugby",
+    "Spaten Fight Night": "Spaten Fight Night",
 }
 
 # 'Avisos' está fora da tabela DE PROPÓSITO: é uma tag de nota institucional,

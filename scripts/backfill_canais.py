@@ -34,6 +34,8 @@ ALIASES = {
     "SBT-Sports": "SBT Sports",
     "SportyNet": "SportyNet",
     "Xsports": "Xsports",
+    "ESPN Brasil": "ESPN Brasil",
+    "Jovem Pan Esportes": "Jovem Pan Esportes",
 }
 
 # Reservado para posts institucionais futuros que não pertençam a canal algum.

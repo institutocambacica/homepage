@@ -6,7 +6,7 @@
 */}}
 
 {{ $page := . }}
-{{ $permitidos := slice "Canal GOAT" "CazeTV" "GETV" "SBT Sports" "SportyNet" "Xsports" }}
+{{ $permitidos := slice "Canal GOAT" "CazeTV" "ESPN Brasil" "GETV" "Jovem Pan Esportes" "SBT Sports" "SportyNet" "Xsports" }}
 
 {{/* Todo post pertence a pelo menos um canal, ou opta explicitamente por fora. */}}
 {{ range $post := where site.RegularPages "Section" "posts" }}
